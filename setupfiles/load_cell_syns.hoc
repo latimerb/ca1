@@ -64,13 +64,9 @@ proc syn_cells() {localobj mySynStore
 											//  where this synapse type, innervated by this
 											//  presynaptic cell type, can be found (on the
 											//  postsynaptic cell)
-											// Add warning here if SecRefStr doesn't contain 
-											//  the string "_list" as it should.
+											
 		print "SecRefStr:", SecRefStr
-		if (strcmp(SecRefStr,"_list")<0){
-			print "Check ", path2SynData, ". It looks like Section list reference (fourth input) isn't formatted correctly.\n"
-			quit()
-		}				
+						
 		
 		f2c.scanstr(CheckCond1)				// Distance condition 1 (ex, point on cell must be
 											//  within x microns of cell soma or at least x

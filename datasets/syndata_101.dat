@@ -1,0 +1,5 @@
+4
+Pyramidal Chandelier Custom soma_list distance(x)>-1 distance(x)<10000 Pyr_ITN.mod initW:3.0 none none none none   
+Chandelier Chandelier Custom soma_list distance(x)>-1 distance(x)<10000 Pyr_ITN.mod initW:3.0 none none none none    
+Pyramidal Pyramidal Custom soma_list distance(x)>-1 distance(x)<10000 Pyr_ITN.mod initW:3.0 none none none none    
+Chandelier Pyramidal Custom soma_list distance(x)>-1 distance(x)<10000 Pyr_ITN.mod initW:3.0 none none none none    

@@ -69,6 +69,7 @@ I.  LOAD LIBRARIES
 													// *are* specified ahead of time or because they
 													// don't usually change
 
+printf("Libraries loaded\n")
 //{load_file("./setupfiles/check_for_files.hoc")}	// Checks that the necessary chosen files exist
 													//  (datasets, connectivity, and stimulation)
                                                         
@@ -156,6 +157,7 @@ proc calcBinSize(){
 }
 calcBinSize()
 
+printf("model size, cell definitions done\n")
 /***********************************************************************************************
 III. SET UP PARALLEL CAPABILITY AND MEMORY USAGE RECORDER, AND WRITE OUT RUN RECEIPT
 ***********************************************************************************************/
