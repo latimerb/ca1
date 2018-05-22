@@ -12,7 +12,7 @@ This file: Last updated on April 10, 2015
 
 This file defines a SynStore class that is used to store
 information about the possible synapses that can be made onto
-a postsynaptc cell by each presynaptic cell type. One SynStore
+a postsynaptic cell by each presynaptic cell type. One SynStore
 object is created for each line in a SynData file, corresponding
 to a single synapse type between a presynaptic and postsynaptic
 cell, where that synapse type can be implemented at certain
@@ -51,7 +51,7 @@ begintemplate SynStore			// Define a template that stores
 	public NewSynStr, SynStr, CondStr, GABAabFlag, CustomFlag, SynType, Scaling
 	
 	// Define strings
-        objref strobj
+    objref strobj
 	strdef NewSynStr, SynStr, CondStr, SecRefStr
 	strdef CheckCond1,CheckCond2, SynType, Scaling
 	strdef cust1,cust2,cust3,cust4,cust5
@@ -86,7 +86,7 @@ begintemplate SynStore			// Define a template that stores
 			strobj.tail($5, "modfile:", SynType) //Reassign the syntype
 			strobj.head(SynType, ".mod", SynType) //Reassign the syntype, remove .mod
 			
-			strobj.head($6, ":", cust1p)
+			strobj.head($6, ":", cust1p) //cust1,cust2,etc should be in format "param:value"
 			strobj.tail($6, ":", cust1v)
 			strobj.head($7, ":", cust2p)
 			strobj.tail($7, ":", cust2v)

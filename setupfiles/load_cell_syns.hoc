@@ -24,9 +24,11 @@ strdef modfile,cust1,cust2,cust3,cust4,cust5
 objref f2c
 
 proc syn_cells() {localobj mySynStore
-
+	print "Number of cell types:",numCellTypes, "\n"
 	for i=0, numCellTypes-1 {
 		sprint(cmdstr, "%s_idx = %g", cellType[i].cellType_string, i)
+		print "cmdstr: ",cmdstr,"\n"
+		
 		{execute1(cmdstr)}
 		
 		cellType[i].setSynList(numCellTypes)	// For each cell type,
@@ -44,17 +46,32 @@ proc syn_cells() {localobj mySynStore
 
 	// load file
 	f2c = new File()
-	sprint(cmdstr, path2SynData, SynData) 
+	sprint(cmdstr, path2SynData, SynData)
+	print "SynData is expected to be here: ",cmdstr, "\n"
+	
 	f2c.ropen(cmdstr)						// Open the SynData file
 	synDataLines = f2c.scanvar
 	for r=0,synDataLines-1 {
+		
 		f2c.scanstr(post_type)				// Postsynaptic cell (owner of the synapse)
 		f2c.scanstr(pre_type)				// Presynaptic cell (cell innervating the synapse)
 		f2c.scanstr(SynType)				// Synapse mechanism (mod file)
+		
+		print "post_type: ", post_type, "pre_type: ", pre_type, "\n"
+		print "SynType: ",SynType, "\n"
+		
 		f2c.scanstr(SecRefStr)				// Section list reference for list of sections
 											//  where this synapse type, innervated by this
 											//  presynaptic cell type, can be found (on the
 											//  postsynaptic cell)
+											// Add warning here if SecRefStr doesn't contain 
+											//  the string "_list" as it should.
+		print "SecRefStr:", SecRefStr
+		if (strcmp(SecRefStr,"_list")<0){
+			print "Check ", path2SynData, ". It looks like Section list reference (fourth input) isn't formatted correctly.\n"
+			quit()
+		}				
+		
 		f2c.scanstr(CheckCond1)				// Distance condition 1 (ex, point on cell must be
 											//  within x microns of cell soma or at least x
 											//  microns away from soma), only points on sections 
@@ -69,14 +86,14 @@ proc syn_cells() {localobj mySynStore
 											//  type.
 											
 		if (strcmp(SynType,"Custom")==0) {
-			modfile = f2c.scanvar
-			cust1 = f2c.scanvar
-			cust2 = f2c.scanvar
-			cust3 = f2c.scanvar
-			cust4 = f2c.scanvar
-			cust5 = f2c.scanvar
-		}
-		else {
+			print "Found a Custom SynType, saving modfile, etc."
+			f2c.scanstr(modfile)
+			f2c.scanstr(cust1)
+			f2c.scanstr(cust2)
+			f2c.scanstr(cust3)
+			f2c.scanstr(cust4)
+			f2c.scanstr(cust5)
+		} else {
 			if (strcmp(SynType,"MyExp2Sidnw")==0) {	// For nw types of synapses, which have a scaling
 				f2c.scanstr(Scaling)				//  factor, load that factor here
 			}
@@ -94,9 +111,18 @@ proc syn_cells() {localobj mySynStore
 				efirst = f2c.scanvar
 			}
 		}
-		// print pre_type, " to ", post_type, " as ", SynType, " within ", SecRefStr, " between ", CheckCond1, " and ", CheckCond2, ": ", tau1, " to ", tau2, " with e=", efirst
+		
+		
+		print pre_type, " to ", post_type, " as ", SynType, " within ", SecRefStr, " between ", CheckCond1, " and ", CheckCond2, ": ", tau1, " to ", tau2, " with e=", efirst
 		sprint(cmdstr, "%s_idx", pre_type)
 		sprint(cmdstr1, "%s_idx", post_type)
+		
+		//name_declared() returns
+		// 2 if an objref
+		// 3 if a Section
+		// 4 if a strdef
+		// 5 if a scalar or double
+		// 1 otherwise
 		if ((name_declared(cmdstr) > 0) && (name_declared(cmdstr1) > 0)) {	// Create the synapse object that
 																			//  consolidates all this info
 			if (strcmp(SynType,"ExpGABAab")==0) {
@@ -106,8 +132,11 @@ proc syn_cells() {localobj mySynStore
 					mySynStore = new SynStore(SecRefStr,SynType,CheckCond1,CheckCond2,tau1,tau2,efirst,Scaling)
 				} else {
 					if (strcmp(SynType,"Custom")==0) {
-						mysynStore = new SynStore(SecRefStr,SynType,CheckCond1,CheckCond2,modfile,cust1,cust2,cust3,cust4,cust5)
-					}else {
+						print "Found a custom SynType but don't know how to handle it."
+						print "All params: ", SecRefStr," ",SynType," ",CheckCond1," ",CheckCond2," ",modfile," ",cust1, cust2, cust3, cust4, cust5
+						//mysynStore = new SynStore(SecRefStr,SynType,CheckCond1,CheckCond2,modfile,cust1,cust2,cust3,cust4,cust5)
+						quit()
+					} else {
 						mySynStore = new SynStore(SecRefStr,SynType,CheckCond1,CheckCond2,tau1,tau2,efirst)
 					}
 				}
