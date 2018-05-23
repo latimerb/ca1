@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #SBATCH -p Lewis,RC
-#SBATCH -N 1
+#SBATCH -N 5
 #SBATCH -A rc
-#SBATCH -n 10
+#SBATCH -n 100
 #SBATCH --qos=normal
 #SBATCH --job-name=Bigmodel
 #SBATCH --output=bigmodel%j.out

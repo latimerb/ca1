@@ -24,10 +24,10 @@ strdef modfile,cust1,cust2,cust3,cust4,cust5
 objref f2c
 
 proc syn_cells() {localobj mySynStore
-	print "Number of cell types:",numCellTypes, "\n"
+	//print "Number of cell types:",numCellTypes, "\n"
 	for i=0, numCellTypes-1 {
 		sprint(cmdstr, "%s_idx = %g", cellType[i].cellType_string, i)
-		print "cmdstr: ",cmdstr,"\n"
+		//print "cmdstr: ",cmdstr,"\n"
 		
 		{execute1(cmdstr)}
 		
@@ -47,7 +47,7 @@ proc syn_cells() {localobj mySynStore
 	// load file
 	f2c = new File()
 	sprint(cmdstr, path2SynData, SynData)
-	print "SynData is expected to be here: ",cmdstr, "\n"
+	//print "SynData is expected to be here: ",cmdstr, "\n"
 	
 	f2c.ropen(cmdstr)						// Open the SynData file
 	synDataLines = f2c.scanvar
@@ -57,15 +57,15 @@ proc syn_cells() {localobj mySynStore
 		f2c.scanstr(pre_type)				// Presynaptic cell (cell innervating the synapse)
 		f2c.scanstr(SynType)				// Synapse mechanism (mod file)
 		
-		print "post_type: ", post_type, "pre_type: ", pre_type, "\n"
-		print "SynType: ",SynType, "\n"
+		//print "post_type: ", post_type, "pre_type: ", pre_type, "\n"
+		//print "SynType: ",SynType, "\n"
 		
 		f2c.scanstr(SecRefStr)				// Section list reference for list of sections
 											//  where this synapse type, innervated by this
 											//  presynaptic cell type, can be found (on the
 											//  postsynaptic cell)
 											
-		print "SecRefStr:", SecRefStr
+		//print "SecRefStr:", SecRefStr
 						
 		
 		f2c.scanstr(CheckCond1)				// Distance condition 1 (ex, point on cell must be
@@ -82,7 +82,7 @@ proc syn_cells() {localobj mySynStore
 											//  type.
 											
 		if (strcmp(SynType,"Custom")==0) {
-			print "Found a Custom SynType, saving modfile, etc."
+			//print "Found a Custom SynType, saving modfile, etc."
 			f2c.scanstr(modfile)
 			f2c.scanstr(cust1)
 			f2c.scanstr(cust2)
@@ -109,7 +109,7 @@ proc syn_cells() {localobj mySynStore
 		}
 		
 		
-		print pre_type, " to ", post_type, " as ", SynType, " within ", SecRefStr, " between ", CheckCond1, " and ", CheckCond2, ": ", tau1, " to ", tau2, " with e=", efirst
+		//print pre_type, " to ", post_type, " as ", SynType, " within ", SecRefStr, " between ", CheckCond1, " and ", CheckCond2, ": ", tau1, " to ", tau2, " with e=", efirst
 		sprint(cmdstr, "%s_idx", pre_type)
 		sprint(cmdstr1, "%s_idx", post_type)
 		
@@ -128,8 +128,8 @@ proc syn_cells() {localobj mySynStore
 					mySynStore = new SynStore(SecRefStr,SynType,CheckCond1,CheckCond2,tau1,tau2,efirst,Scaling)
 				} else {
 					if (strcmp(SynType,"Custom")==0) {
-						print "Found a custom SynType but don't know how to handle it."
-						print "All params: ", SecRefStr," ",SynType," ",CheckCond1," ",CheckCond2," ",modfile," ",cust1, cust2, cust3, cust4, cust5
+						//print "Found a custom SynType but don't know how to handle it."
+						//print "All params: ", SecRefStr," ",SynType," ",CheckCond1," ",CheckCond2," ",modfile," ",cust1, cust2, cust3, cust4, cust5
 						//mysynStore = new SynStore(SecRefStr,SynType,CheckCond1,CheckCond2,modfile,cust1,cust2,cust3,cust4,cust5)
 						quit()
 					} else {
