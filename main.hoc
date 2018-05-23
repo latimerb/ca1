@@ -69,7 +69,7 @@ I.  LOAD LIBRARIES
 													// *are* specified ahead of time or because they
 													// don't usually change
 
-printf("Libraries loaded\n")
+printf("\nLibraries loaded\n")
 //{load_file("./setupfiles/check_for_files.hoc")}	// Checks that the necessary chosen files exist
 													//  (datasets, connectivity, and stimulation)
                                                         
@@ -157,7 +157,7 @@ proc calcBinSize(){
 }
 calcBinSize()
 
-printf("model size, cell definitions done\n")
+printf("\nmodel size, cell definitions done\n")
 /***********************************************************************************************
 III. SET UP PARALLEL CAPABILITY AND MEMORY USAGE RECORDER, AND WRITE OUT RUN RECEIPT
 ***********************************************************************************************/
@@ -171,6 +171,8 @@ proc parallelizer() {
 										//	dealing a deck of cards)
 }
 parallelizer()
+
+
 
 iterator pcitr() {local i1, i2, gid, startgid	// Create an iterator for use instead of standard 'for' 
 												//  loop. This provides an easy way for each processor 
@@ -223,6 +225,13 @@ iterator pcitr() {local i1, i2, gid, startgid	// Create an iterator for use inst
 objref  strobj
 strobj = new StringFunctions()
 strdef direx
+
+{pc.barrier()}
+printf("\nhost %d online before \n", pc.id)
+
+//// Ben Latimer 2018: I had trouble getting this to work. I think uuidgen isn't working properly. 
+//// For now, I'm going to generate a UID outside in the parameters.hoc file.
+
 if (strcmp(UID,"0")==0 && pc.id==0) {					// if a unique ID (UID) was not already 
 														//  specified for this run, then generate 
 														//  it now. Only one per run is needed, so
@@ -241,6 +250,7 @@ if (strcmp(UID,"0")==0 && pc.id==0) {					// if a unique ID (UID) was not alread
 	if (type<3 || type==4) { // unix or mac
 		if (OK2executeSysCmds==1) {
 			{system("uuidgen", direx)} // use a built in system command to generate the UID
+			printf("direx: %s\n",direx)
 			strobj.left(direx, strobj.len(direx)-1) // remove a newline character from the end
 		} else { // Can't access system commands so can't get a UID
 			direx = "unknown"
@@ -252,6 +262,9 @@ if (strcmp(UID,"0")==0 && pc.id==0) {					// if a unique ID (UID) was not alread
 	}
 	UID = direx
 }
+
+
+
 
 if (OK2executeSysCmds==1) {
 	{load_file("./setupfiles/save_run_info.hoc")}		// This file will ensure a unique RunName (if 
@@ -270,6 +283,10 @@ if (OK2executeSysCmds==1) {
 	//  - the program will expect a directory named 'RunName' to be in the results directory
 	//  - the program will overwrite any existing files in the ./results/RunName directory
 }
+
+{pc.barrier()}
+printf("\nhost %d online after\n", pc.id)
+quit()
 
 objref  memfile, topfile
 
@@ -294,6 +311,8 @@ if (pc.id==0) {
 loadtime = startsw() - loadstart		// Calculate the time used for the set up phase (now - recorded start time) in seconds
 if (pc.id == 0) {printf("\nTIME HOST 0: %g seconds (set up)\n************\n", loadtime)}
 createstart = startsw()					// Record the start time of the cell creation phase
+
+
 
 /***********************************************************************************************
 IV. CREATE, UNIQUELY ID, AND POSITION CELLS
