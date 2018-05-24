@@ -1,0 +1,10843 @@
+Starting model at Wed May 23 23:53:40 CEST 2018
+numprocs=200
+NEURON -- VERSION 7.5 master (6b4c19f) 2017-09-25
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2016
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ ch_CavL.mod ch_CavN.mod ch_HCN.mod ch_HCNolm.mod ch_HCNp.mod ch_KCaS.mod ch_Kdrfast.mod ch_Kdrfastngf.mod ch_Kdrp.mod ch_Kdrslow.mod ch_KvAdistp.mod ch_KvA.mod ch_KvAngf.mod ch_KvAolm.mod ch_KvAproxp.mod ch_KvCaB.mod ch_KvGroup.mod ch_KvM.mod ch_leak.mod ch_Navaxonp.mod ch_Navbis.mod ch_Navcck.mod ch_Nav.mod ch_Navngf.mod ch_Navp.mod ExpGABAab.mod fastconn.mod iconc_Ca.mod MyExp2Sid.mod MyExp2Sidnw.mod mynetstim.mod positionfcns.mod repeatconn.mod sgate.mod SIN.mod xtra.mod
+direx: 32e311ec-c2ce-464e-9fc7-7e0bf7c9b071
+
+sh: git: command not found
+sh: git: command not found
+sh: git: command not found
+Host 152  created cells.
+Host 44  created cells.
+Host 125  created cells.
+Host 50  created cells.
+Host 90  created cells.
+Host 133  created cells.
+Host 70  created cells.
+Host 96  created cells.
+Host 124  created cells.
+Host 30  created cells.
+Host 45  created cells.
+Host 100  created cells.
+Host 140  created cells.
+Host 33  created cells.
+Host 46  created cells.
+Host 102  created cells.
+Host 154  created cells.
+Host 25  created cells.
+Host 65  created cells.
+Host 116  created cells.
+Host 122  created cells.
+Host 5  created cells.
+Host 43  created cells.
+Host 118  created cells.
+Host 148  created cells.
+Host 11  created cells.
+Host 74  created cells.
+Host 85  created cells.
+Host 13  created cells.
+Host 57  created cells.
+Host 91  created cells.
+Host 143  created cells.
+Host 38  created cells.
+Host 59  created cells.
+Host 189  created cells.
+Host 115  created cells.
+Host 139  created cells.
+Host 4  created cells.
+Host 60  created cells.
+Host 184  created cells.
+Host 81  created cells.
+Host 144  created cells.
+Host 19  created cells.
+Host 61  created cells.
+Host 167  created cells.
+Host 84  created cells.
+Host 141  created cells.
+Host 31  created cells.
+Host 66  created cells.
+Host 181  created cells.
+Host 92  created cells.
+Host 153  created cells.
+Host 22  created cells.
+Host 51  created cells.
+Host 162  created cells.
+Host 94  created cells.
+Host 123  created cells.
+Host 7  created cells.
+Host 55  created cells.
+Host 175  created cells.
+Host 97  created cells.
+Host 136  created cells.
+Host Host 47  created cells.
+Host 183  created cells.
+Host 107  created cells.
+Host 146  created cells.
+Host 9  created cells.
+Host 56  created cells.
+Host 169  created cells.
+Host 108  created cells.
+Host 156  created cells.
+21  created cells.
+Host 76  created cells.
+Host 180  created cells.
+Host 110  created cells.
+Host 132  created cells.
+Host 37  created cells.
+Host 42 Host 188  created cells.
+Host 112  created cells.
+Host 138  created cells.
+Host 12  created cells.
+Host 49  created cells.
+Host 199  created cells.
+Host 117  created cells.
+Host 120  created cells.
+Host 39  created cells.
+Host 72  created cells.
+Host 187  created cells.
+Host 86  created cells.
+Host 128  created cells.
+Host 23  created cells.
+ created cells.
+Host 193  created cells.
+Host 89  created cells.
+Host 127  created cells.
+Host 15  created cells.
+Host 52  created cells.
+Host 161  created cells.
+Host 109  created cells.
+Host 149  created cells.
+Host 27  created cells.
+Host 68  created cells.
+Host 163  created cells.
+Host 104  created cells.
+Host 159  created cells.
+Host 3  created cells.
+Host 79  created cells.
+Host 179  created cells.
+Host 99  created cells.
+Host 14  created cells.
+Host 71  created cells.
+Host 173  created cells.
+Host 103  created cells.
+Host 137  created cells.
+Host 32  created cells.
+Host 64  created cells.
+Host 182  created cells.
+Host 119  created cells.
+Host 142  created cells.
+Host 34  created cells.
+Host 54  created cells.
+Host 196 Host 106  created cells.
+Host 131  created cells.
+Host 8  created cells.
+Host 75  created cells.
+ created cells.
+Host 113  created cells.
+Host 134  created cells.
+Host 16  created cells.
+Host 40  created cells.
+Host 197  created cells.
+Host 82  created cells.
+Host 145  created cells.
+Host 18  created cells.
+Host 53  created cells.
+Host 185  created cells.Host 105  created cells.
+Host 150  created cells.
+Host 26  created cells.
+Host 62  created cells.
+Host 198  created cells.
+Host 111  created cells.
+Host 155  created cells.
+Host 6  created cells.
+Host 48  created cells.
+Host 160  created cells.
+Host 87  created cells.
+Host 126  created cells.Host 17  created cells.
+Host 58  created cells.
+Host 164  created cells.
+Host 88  created cells.
+
+Host 20  created cells.
+Host 67  created cells.
+Host 166  created cells.
+Host 114  created cells.
+Host 129  created cells.
+Host 29  created cells.
+Host 69  created cells.
+Host 168  created cells.
+Host 80  created cells.
+Host 121  created cells.
+Host 36  created cells.
+Host 63  created cells.
+Host 170  created cells.
+Host 101  created cells.
+Host 135  created cells.
+Host 28  created cells.
+Host 41  created cells.
+Host 171  created cells.
+Host 83  created cells.
+Host 147  created cells.
+Host 2  created cells.
+Host 78  created cells.
+Host 172  created cells.
+Host 93  created cells.
+Host 151  created cells.
+Host 24  created cells.
+Host 73  created cells.
+Host 174  created cells.
+Host 95  created cells.
+Host 130  created cells.
+Host 35  created cells.
+Host 77  created cells.
+Host 176  created cells.
+Host 98  created cells.
+Host 157  created cells.
+Host 10  created cells.
+Host 177  created cells.
+Host 158  created cells.
+Host 178  created cells.
+
+Host 186  created cells.
+Host 190  created cells.
+Host 191  created cells.
+Host 1  created cells.
+Host 192  created cells.
+Host 194  created cells.
+Host 195  created cells.
+Host 165  created cells.
+
+TIME HOST 0: 1.15 seconds (set up)
+************
+Host 0  created cells.
+
+TIME HOST 0: 0.52 seconds (created cells)
+************
+Host 85  is connecting: pyramidalcells to pyramidalcells.
+Host 85  is connecting: pvbasketcells to pyramidalcells.
+Host 85  is connecting: ca3cells to pyramidalcells.
+Host 85  is connecting: pyramidalcells to pvbasketcells.
+Host 85  is connecting: pvbasketcells to pvbasketcells.
+Host 85  is connecting: ca3cells to pvbasketcellHost 162  is connecting: pyramidalcells to pyramidalcells.
+Host 162  is connecting: pvbasketcells to pyramidalcells.
+s.
+Host 85  is connecting: pyramidalcells to ca3cells.
+Host Host 193  is connecting: pyramidalcells to pyramidalcells.
+Host 193  is connecting: pvbasketcells to pyramidalcells.
+Host 193  is connecting: ca3cells to pyramidalcells.
+Host 96  is connecting: pyramidalcells to pyramidalcells.
+Host Host 162  is connecting: ca3cells to pyramidalcells.
+Host 162  is connecting: pyramidalcells to pvbasketcells.
+Host 112  is connecting: pyramidalcells to pyramidalcells.
+Host 112  is connecting: pvbasketcellHost 185  is connecting: pyramidalcells to pyramidalcells.
+Host 85  is connecting: pvbasketcells to ca3cells.
+Host 85  is connecting: ca3cells to ca3cells.
+Host 85  connected cells.
+Host 193  is connecting: pyramidalcells to pvbasketcells.
+Host 193  is connecting: pvbasketcells to pvbasketcells.
+Host 96  is connecting: pvbasketcells to pyramidalcells.
+Host 96  is connecting: ca3cells to pyramidalcells.
+Host 96  is connecting: pyramidalcellHost 162  is connecting: pvbasketcells to pvbasketcells.
+Host 162  is connecting: ca3cells to pvbasketcells.
+s to pyramidalcells.
+Host 112  is connecting: ca3cells to pyramidalcells.
+Host 112  is connecting: pyramidalcells to pvbasketcellHost 174  is connecting: pyramidalcells to pyramidalcells.
+Host 174  is connecting: pvbasketcells to pyramidalcells.
+Host 94  is connecting: pyramidalcells to pyramidalcells.
+Host 94  is connecting: pvbasketcells to Host 18  is connecting: pyramidalcells to pyramidalcells.
+Host 18  is connecting: pvbasketcells to pyramidalcells.
+Host 18 185  is connecting: pvbasketcells to pyramidalcells.
+Host 185  is connecting: ca3cells to pyramidalcells.
+Host 185  is connecting: pyramidalcells to s to pvbasketcells.
+Host 96  is connecting: pvbasketcells to pvbasketcells.
+Host 96  is connecting: ca3cells to pvbasketcells.
+ is connecting: ca3cells to pyramidalcells.
+Host 18  is connecting: pyramidalcells to pvbasketcells.
+Host 18  is connecting: pvbasketcells to pvbasketcells.
+Host 18  is connecting: ca3cells to pvbasketcells.
+Host 18  is connecting: Host 186  is connecting: pyramidalcells to pyramidalcells.
+Host 186  is connecting: pvbasketcells to pyramidalcells.
+Host 186  is connecting: Host 106  is connecting: pyramidalcells to pyramidalcells.
+Host 106  is connecting: pvbasketcells to pyramidalcells.
+Host 106 pyramidalcells to ca3cells.
+Host 18  is connecting: pvbasketcells to ca3cells.
+Host 18  is connecting: ca3cells to ca3cells.
+Host 191  is connecting: pyramidalcells to pyramidalcells.
+Host 191  is connecting: pvbasketcells to pyramidalcells.
+Host 191  is connecting: ca3cells to s.
+Host 112  is connecting: pvbasketcells to pvbasketcells.
+Host 112  is connecting: ca3cells to pvbasketcells.
+Host 112  is connecting: pyramidalcells to ca3cellHost 120  is connecting: pyramidalcells to pyramidalcells.
+Host 120  is connecting: pvbasketcells to pyramidalcells.
+Host 120  is connecting: ca3cells to pyramidalcells.
+Host 120  is connecting: pyramidalcells to pvbasketcells.
+Host 120  is connecting: pvbasketcells to pvbasketcells.
+Host 120  is connecting: ca3cells to pvbasketcells.
+Host 120  is connecting: pyramidalcells to ca3cells.
+Host 120  is connecting: pvbasketcells to ca3cells.
+Host 120  is connecting: ca3cells to ca3cells.
+Host 120  connected cells.
+Host 18  connected cells.
+193  is connecting: ca3cells to pvbasketcells.
+Host 193  is connecting: pyramidalcells to ca3cells.
+Host 193  is connecting: pvbasketcells to ca3cells.
+Host 193  is connecting: ca3cells to ca3cells.
+pyramidalcells.
+Host 94  is connecting: ca3cells to pyramidalcells.
+Host 94  is connecting: pyramidalcells to pvbasketcells.
+Host 122  is connecting: pyramidalcells to pyramidalcells.
+Host 122  is connecting: pvbasketcells to pyramidalcells.
+Host 122  is connecting: ca3cells to pyramidalcells.
+Host 122  is connecting: pyramidalcells to pvbasketcells.
+Host 122  is connecting: pvbasketcells to pvbasketcells.
+Host 122  is connecting: ca3cells to pvbasketcells.
+Host 122  is connecting: pyramidalcells to ca3cells.
+Host 122  is connecting: pvbasketcells to ca3cells.
+Host 122  is connecting: ca3cells to ca3cells.
+Host 122  connected cells.
+Host 20  is connecting: pyramidalcells to pyramidalcells.
+Host 20  is connecting: pvbasketcells to pyramidalcells.
+Host 198  is connecting: pyramidalcells to pyramidalcells.
+Host 198  is connecting: pvbasketcells to pyramidalcells.
+Host 198  is connecting: ca3cells to pyramidalcells.
+Host 198  is connecting: pyramidalcells to pvbasketcells.
+Host 96  is connecting: pyramidalcells to ca3cells.
+Host 96  is connecting: pvbasketcells to ca3cells.
+Host 96 Host 124  is connecting: pyramidalcells to pyramidalcells.
+Host 124  is connecting: pvbasketcells to pyramidalcells.
+Host 124  is connecting: ca3cells to pyramidalcells.
+Host 124  is connecting: pyramidalcells to pvbasketcells.
+Host 124  is connecting: pvbasketcells to pvbasketcells.
+Host 124  is connecting: ca3cells to pvbasketcells.
+Host 124  is connecting: pyramidalcells to ca3cells.
+Host 124  is connecting: pvbasketcells to ca3cells.
+Host 124  is connecting: ca3cells to ca3cells.
+Host 124  connected cells.
+Host 7  is connecting: pyramidalcells to pyramidalcells.
+Host 7  is connecting: pvbasketcells to pyramidalcells.
+Host 7  is connecting: ca3cells to pyramidalcells.
+Host 60  is connecting: pyramidalcells to pyramidalcells.
+Host 60  is connecting: pvbasketcells to pyramidalcells.Host 162  is connecting: pyramidalcells to ca3cells.
+Host 162  is connecting: pvbasketcells to ca3cells.
+Host 162  is connecting: ca3cells to ca3cells.
+Host 162  connected cells.
+ is connecting: ca3cells to pyramidalcells.
+Host 106  is connecting: pyramidalcells to pvbasketcells.
+Host 106  is connecting: Host 126  is connecting: pyramidalcells to pyramidalcells.
+Host 126  is connecting: pvbasketcells to pyramidalcells.
+Host 126  is connecting: ca3cells to pyramidalcells.
+Host 126  is connecting: pyramidalcells to pvbasketcells.
+Host 126  is connecting: pvbasketcells to pvbasketcells.
+Host 126  is connecting: ca3cells to pvbasketcells.
+Host 126  is connecting: pyramidalcells to ca3cells.
+Host 126  is connecting: pvbasketcells to ca3cells.
+Host 126  is connecting: ca3cells to ca3cells.
+Host 126  connected cells.
+Host 19  is connecting: pyramidalcells to pyramidalcells.
+Host 19  is connecting: pvbasketcells to pyramidalcells.
+Host 19  is connecting: ca3cells to pyramidalcells.
+Host 54  is connecting: pyramidalcells to pyramidalcells.
+Host 54  is connecting: pvbasketcells to pyramidalcells.
+Host 54  is connecting: Host 174  is connecting: ca3cells to pyramidalcells.
+Host 174  is connecting: pyramidalcells to pvbasketcells.
+Host 174  is connecting: pvbasketcells to pvbasketcells.
+Host s.
+Host 112  is connecting: pvbasketcells to ca3cells.
+Host 112  is connecting: ca3cells to ca3cellHost 133  is connecting: pyramidalcells to pyramidalcells.
+Host 133  is connecting: pvbasketcells to pyramidalcells.
+Host 133  is connecting: ca3cells to pyramidalcells.
+Host 133  is connecting: pyramidalcells to pvbasketcells.
+Host 133  is connecting: pvbasketcells to pvbasketcells.
+Host 133  is connecting: ca3cells to pvbasketcells.
+Host 133  is connecting: pyramidalcells to ca3cells.
+Host 133  is connecting: pvbasketcells to ca3cells.
+Host 133  is connecting: ca3cells to ca3cells.
+Host 133  connected cells.
+Host 20  is connecting: ca3cells to pyramidalcells.
+Host 20  is connecting: pyramidalcells to pvbasketcells.
+Host 20  is connecting: pvbasketcells to pvbasketcells.
+Host 20  is connecting: ca3cells to pvbasketcells.
+Host 59  is connecting: pyramidalcells to pyramidalcells.
+Host 59  is connecting: pvbasketcells to pyramidalcells.
+Host 59  is connecting: ca3cells to pyramidalcells.
+Host 59  is connecting: pyramidalcells to pvbasketcellHost 183  is connecting: pyramidalcells to pyramidalcells.
+Host 183  is connecting: pvbasketcells to pyramidalcells.
+Host 94  is connecting: pvbasketcells to pvbasketcells.
+Host 94  is connecting: ca3cells to Host 136  is connecting: pyramidalcells to pyramidalcells.
+Host 136  is connecting: pvbasketcells to pyramidalcells.
+Host 136  is connecting: ca3cells to pyramidalcells.
+Host 136  is connecting: pyramidalcells to pvbasketcells.
+Host 136  is connecting: pvbasketcells to pvbasketcells.
+Host 136  is connecting: ca3cells to pvbasketcells.
+Host 136  is connecting: pyramidalcells to ca3cells.
+Host 136  is connecting: pvbasketcells to ca3cells.
+Host 136  is connecting: ca3cells to ca3cells.
+Host 136  connected cells.
+Host 7  is connecting: pyramidalcells to pvbasketcells.
+Host 7  is connecting: pvbasketcells to pvbasketcells.
+Host 7  is connecting: ca3cells to pvbasketcells.
+Host 7  is connecting: pyramidalcells to ca3cell
+Host 60  is connecting: ca3cells to pyramidalcells.
+Host 60  is connecting: pyramidalcells to pvbasketcells.
+Host pvbasketcells.
+Host 185  is connecting: pvbasketcells to pvbasketcells.
+Host 185  is connecting: ca3cells to pvbasketcells.
+Host 185  is connecting: pyramidalcells to ca3cells.
+Host 185  is connecting: pvbasketcells to ca3cells.
+Host 185  is connecting: ca3cells to ca3cells.
+ is connecting: ca3cells to ca3cells.
+Host 96  connected cells.
+Host 141  is connecting: pyramidalcells to pyramidalcells.
+Host 141  is connecting: pvbasketcells to pyramidalcells.
+Host 141  is connecting: ca3cells to pyramidalcells.
+Host 141  is connecting: pyramidalcells to pvbasketcells.
+Host 141  is connecting: pvbasketcells to pvbasketcells.
+Host 141  is connecting: ca3cells to pvbasketcells.
+Host 141  is connecting: pyramidalcells to ca3cells.
+Host 141  is connecting: pvbasketcells to ca3cells.
+Host 141  is connecting: ca3cells to ca3cells.
+Host 141  connected cells.
+Host 11  is connecting: pyramidalcells to pyramidalcells.
+Host 11  is connecting: pvbasketcells to pyramidalcellHost 76  is connecting: pyramidalcells to pyramidalcells.
+Host 76  is connecting: pvbasketcells to pyramidalcells.
+Host 76  is connecting: ca3cells to pyramidalcells.
+Host 76  is connecting: pyramidalcells to pvbasketcells.
+Host 76  is connecting: pvbasketcells to pvbasketcellca3cells to pyramidalcells.
+Host 186  is connecting: pyramidalcells to pvbasketcells.
+Host 186  is connecting: pvbasketcells to pvbasketcells.
+Host 186  is connecting: ca3cells to pvbasketcells.
+Host 186  is connecting: pyramidalcells to ca3cells.
+Host pvbasketcells to pvbasketcells.
+Host 106  is connecting: ca3cells to pvbasketcells.
+Host Host 144  is connecting: pyramidalcells to pyramidalcells.
+Host 144  is connecting: pvbasketcells to pyramidalcells.
+Host 144  is connecting: ca3cells to pyramidalcells.
+Host 144  is connecting: pyramidalcells to pvbasketcells.
+Host 144  is connecting: pvbasketcells to pvbasketcells.
+Host 144  is connecting: ca3cells to pvbasketcells.
+Host 144  is connecting: pyramidalcells to ca3cells.
+Host 144  is connecting: pvbasketcells to ca3cells.
+Host 144  is connecting: ca3cells to ca3cells.
+Host 144  connected cells.
+Host 19  is connecting: pyramidalcells to pvbasketcells.
+Host 19  is connecting: pvbasketcells to pvbasketcells.
+Host 19  is connecting: ca3cells to pvbasketcells.
+Host 19  is connecting: pyramidalcells to ca3cells.
+Host 19  is connecting: pvbasketcellca3cells to pyramidalcells.
+Host 54  is connecting: pyramidalcells to pvbasketcells.
+Host 54  is connecting: pvbasketcells to pvbasketcells.
+Host 54  is connecting: ca3cells to pvbasketcells.
+pyramidalcells.
+Host 191  is connecting: pyramidalcells to pvbasketcells.
+Host 191  is connecting: pvbasketcells to pvbasketcells.
+Host 191  is connecting: ca3cells to pvbasketcells.
+Host 191  is connecting: pyramidalcells to ca3cells.
+Host 191  is connecting: s.
+Host 112  connected cells.
+Host 146  is connecting: pyramidalcells to pyramidalcells.
+Host 146  is connecting: pvbasketcells to pyramidalcells.
+Host 146  is connecting: ca3cells to pyramidalcells.
+Host 146  is connecting: pyramidalcells to pvbasketcells.
+Host 146  is connecting: pvbasketcells to pvbasketcells.
+Host 146  is connecting: ca3cells to pvbasketcells.
+Host 146  is connecting: pyramidalcells to ca3cells.
+Host 146  is connecting: pvbasketcells to ca3cells.
+Host 146  is connecting: ca3cells to ca3cells.
+Host 146  connected cells.
+Host 20  is connecting: pyramidalcells to ca3cells.
+Host 20  is connecting: pvbasketcells to ca3cells.
+Host 20  is connecting: ca3cells to ca3cells.
+Host 20  connected cells.
+s.
+Host 59  is connecting: pvbasketcells to pvbasketcells.
+Host 59  is connecting: ca3cells to pvbasketcells.
+Host 59  is connecting: pyramidalcells to ca3cells.
+Host 59  is connecting: pvbasketcells to ca3cellHost 193  connected cells.
+pvbasketcells.
+Host 94  is connecting: pyramidalcells to ca3cells.
+Host 94  is connecting: pvbasketcellHost 148  is connecting: pyramidalcells to pyramidalcells.
+Host 148  is connecting: pvbasketcells to pyramidalcells.
+Host 148  is connecting: ca3cells to pyramidalcells.
+Host 148  is connecting: pyramidalcells to pvbasketcells.
+Host 148  is connecting: pvbasketcells to pvbasketcells.
+Host 148  is connecting: ca3cells to pvbasketcells.
+Host 148  is connecting: pyramidalcells to ca3cells.
+Host 148  is connecting: pvbasketcells to ca3cells.
+Host 148  is connecting: ca3cells to ca3cells.
+Host 148  connected cells.
+Host 27  is connecting: pyramidalcells to pyramidalcells.
+Host 27  is connecting: pvbasketcells to pyramidalcells.
+Host 27  is connecting: ca3cells to pyramidalcells.
+Host 27  is connecting: pyramidalcells to pvbasketcells.
+60  is connecting: pvbasketcells to pvbasketcells.
+Host 60  is connecting: ca3cells to pvbasketcells.
+Host 60  is connecting: pyramidalcells to ca3cells.
+Host 60  is connecting: pvbasketcells to ca3cellHost 198  is connecting: pvbasketcells to pvbasketcells.
+Host 198  is connecting: ca3cells to pvbasketcells.
+Host 198  is connecting: pyramidalcells to ca3cells.
+Host 198  is connecting: pvbasketcells to ca3cells.
+Host 198  is connecting: ca3cells to 106  is connecting: pyramidalcells to ca3cells.
+Host 106  is connecting: pvbasketcells to ca3cellHost 149  is connecting: pyramidalcells to pyramidalcells.
+Host 149  is connecting: pvbasketcells to pyramidalcells.
+Host 149  is connecting: ca3cells to pyramidalcells.
+Host 149  is connecting: pyramidalcells to pvbasketcells.
+Host 149  is connecting: pvbasketcells to pvbasketcells.
+Host 149  is connecting: ca3cells to pvbasketcells.
+Host 149  is connecting: pyramidalcells to ca3cells.
+Host 149  is connecting: pvbasketcells to ca3cells.
+Host 149  is connecting: ca3cells to ca3cells.
+Host 149  connected cells.
+s.
+Host 7  is connecting: pvbasketcells to ca3cells.
+Host 7  is connecting: ca3cells to ca3cells.
+Host 7  connected cells.
+s.
+Host 76  is connecting: ca3cells to pvbasketcells.
+Host 76  is connecting: pyramidalcells to ca3cells.
+Host 76  is connecting: pvbasketcells to ca3cells.
+Host 76  is connecting: ca3cells to ca3cells.
+Host 76  connected cells.
+174  is connecting: ca3cells to pvbasketcells.
+Host 174  is connecting: pyramidalcells to ca3cells.
+Host 174  is connecting: pvbasketcells to ca3cells.
+Host 174  is connecting: ca3cells to ca3cells.
+Host 174  connected cells.
+s to ca3cells.
+Host 94  is connecting: ca3cells to ca3cells.
+Host Host 154  is connecting: pyramidalcells to pyramidalcells.
+Host 154  is connecting: pvbasketcells to pyramidalcells.
+Host 154  is connecting: ca3cells to pyramidalcells.
+Host 154  is connecting: pyramidalcells to pvbasketcells.
+Host 154  is connecting: pvbasketcells to pvbasketcells.
+Host 154  is connecting: ca3cells to pvbasketcells.
+Host 154  is connecting: pyramidalcells to ca3cells.
+Host 154  is connecting: pvbasketcells to ca3cells.
+Host 154  is connecting: ca3cells to ca3cells.
+Host 154  connected cells.
+s.
+Host 11  is connecting: ca3cells to pyramidalcells.
+Host 11  is connecting: pyramidalcells to pvbasketcells.
+Host 11  is connecting: pvbasketcells to pvbasketcells.
+Host 11  is connecting: ca3cells to pvbasketcells.
+Host 11  is connecting: pyramidalcells to ca3cells.
+Host 42  is connecting: pyramidalcells to pyramidalcellHost 176  is connecting: pyramidalcells to pyramidalcells.
+Host 176  is connecting: pvbasketcells to pyramidalcells.
+Host 176  is connecting: ca3cells to pyramidalcells.
+Host 176  is connecting: pyramidalcells to pvbasketcells.
+Host 176  is connecting: pvbasketcells to pvbasketcells.
+Host 176  is connecting: ca3cells to pvbasketcells.
+s.
+Host 106  is connecting: ca3cells to ca3cells.
+Host 106  connected cells.
+Host 158  is connecting: pyramidalcells to pyramidalcells.
+Host 158  is connecting: pvbasketcells to pyramidalcells.
+Host 158  is connecting: ca3cells to pyramidalcells.
+Host 158  is connecting: pyramidalcells to pvbasketcells.
+Host 158  is connecting: pvbasketcells to pvbasketcells.
+Host 158  is connecting: ca3cells to pvbasketcells.
+Host 158  is connecting: pyramidalcells to ca3cells.
+Host 158  is connecting: pvbasketcells to ca3cells.
+Host 158  is connecting: ca3cells to ca3cells.
+Host 158  connected cells.
+Host 12  is connecting: pyramidalcells to pyramidalcells.
+Host 12  is connecting: pvbasketcells to pyramidalcells.
+Host 12  is connecting: ca3cells to pyramidalcells.
+Host 12  is connecting: pyramidalcells to pvbasketcells.
+Host 54  is connecting: pyramidalcells to ca3cells.
+Host 54  is connecting: pvbasketcells to ca3cells.
+Host 54  is connecting: ca3cells to ca3cells.
+Host 54  connected cells.
+Host 183  is connecting: ca3cells to pyramidalcells.
+Host 183  is connecting: pyramidalcells to pvbasketcells.
+Host 183  is connecting: pvbasketcells to pvbasketcells.
+Host 183  is connecting: ca3cells to pvbasketcells.
+94  connected cells.
+Host 128  is connecting: pyramidalcells to pyramidalcells.
+Host 128  is connecting: pvbasketcells to pyramidalcells.
+Host 128  is connecting: ca3cells to pyramidalcells.
+Host 128  is connecting: pyramidalcells to pvbasketcells.
+Host 128  is connecting: pvbasketcells to pvbasketcells.
+Host 128  is connecting: ca3cells to pvbasketcells.
+Host 17  is connecting: pyramidalcells to pyramidalcells.
+Host 17  is connecting: pvbasketcells to pyramidalcells.
+Host 17  is connecting: ca3cells to pyramidalcells.
+Host 17  is connecting: pyramidalcells to pvbasketcells.
+Host 17  is connecting: pvbasketcells to pvbasketcells.
+s.
+Host 59  is connecting: ca3cells to ca3cells.
+Host 59  connected cells.
+Host 185  connected cells.
+Host 103  is connecting: pyramidalcells to pyramidalcells.
+Host 103  is connecting: pvbasketcells to pyramidalcells.
+Host 103  is connecting: ca3cellHost 132  is connecting: pyramidalcells to pyramidalcells.
+Host 132  is connecting: pvbasketcells to pyramidalcells.
+Host 132  is connecting: ca3cells to pyramidalcells.
+Host 132  is connecting: pyramidalcells to pvbasketcells.
+Host 132  is connecting: s to ca3cells.
+Host 19  is connecting: ca3cells to ca3cells.
+Host 19  connected cells.
+s.
+Host 60  is connecting: ca3cells to ca3cells.
+Host 60  connected cells.
+186  is connecting: pvbasketcells to ca3cells.
+Host 186  is connecting: ca3cells to ca3cells.
+Host 186  connected cells.
+Host 101  is connecting: Host 135  is connecting: pyramidalcells to pyramidalcells.
+Host 135  is connecting: pvbasketcells to pyramidalcells.
+Host 135  is connecting: ca3cells to pyramidalcells.
+Host 135  is connecting: pyramidalcells to pvbasketcells.
+Host 135  is connecting: pvbasketcells to pvbasketcells.
+Host 135  is connecting: ca3cells to pvbasketcells.
+Host 135  is connecting: pyramidalcells to ca3cells.
+Host 135 Host 27  is connecting: pvbasketcells to pvbasketcells.
+Host 27  is connecting: ca3cells to pvbasketcells.
+Host 27  is connecting: pyramidalcells to ca3cells.
+Host 27  is connecting: pvbasketcells to ca3cells.
+Host 27  is connecting: ca3cells to ca3cells.
+Host 27  connected cells.
+Host 40  is connecting: pyramidalcells to pyramidalcells.
+Host 40  is connecting: pvbasketcells to pyramidalcells.
+Host 40  is connecting: ca3cells to pyramidalcells.
+Host 40  is connecting: pyramidalcells to pvbasketcells.
+Host 40  is connecting: pvbasketcells to pvbasketcells.
+Host Host 188  is connecting: pyramidalcells to pyramidalcells.
+Host 188  is connecting: pvbasketcells to pyramidalcells.
+Host 188  is connecting: ca3cells to pyramidalcells.
+Host 188  is connecting: pyramidalcells to pvbasketcells.
+Host 188  is connecting: pvbasketcells to s to pyramidalcells.
+Host 103  is connecting: Host 156  is connecting: pyramidalcells to pyramidalcells.
+Host 156  is connecting: pvbasketcells to pyramidalcells.
+Host 156  is connecting: ca3cells to pyramidalcells.
+Host 156  is connecting: Host 29  is connecting: pyramidalcells to pyramidalcells.
+Host 29  is connecting: pvbasketcells to pyramidalcells.
+Host 29  is connecting: ca3cells to pyramidalcells.
+Host 29  is connecting: pyramidalcells to pvbasketcells.
+Host 29  is connecting: pvbasketcells to pvbasketcells.
+Host 29  is connecting: ca3cells to pvbasketcells.
+Host 29  is connecting: pyramidalcells to ca3cells.
+Host 29  is connecting: pvbasketcells to ca3cells.
+s.
+Host 42  is connecting: pvbasketcells to pyramidalcells.
+Host 42  is connecting: ca3cells to pyramidalcells.
+Host 42  is connecting: pyramidalcells to pvbasketcells.
+Host 42  is connecting: pvbasketcells to pvbasketcells.
+Host 42  is connecting: ca3cells to pvbasketcells.
+Host 42  is connecting: pyramidalcells to ca3cells.
+Host 42  is connecting: pvbasketcellHost 189  is connecting: pyramidalcells to pyramidalcells.
+Host 189  is connecting: pvbasketcells to pyramidalcells.
+Host 189  is connecting: ca3cells to pyramidalcells.
+Host 189  is connecting: pyramidalcells to pvbasketcells.
+Host 189  is connecting: pvbasketcells to pvbasketcells.
+Host 189  is connecting: pyramidalcells to pyramidalcells.
+Host 101  is connecting: pvbasketcells to Host 157  is connecting: pyramidalcells to pyramidalcells.
+Host 157  is connecting: pvbasketcells to pyramidalcells.
+Host 157  is connecting: ca3cells to pyramidalcells.
+Host 157  is connecting: pyramidalcells to pvbasketcells.
+Host 157  is connecting: pvbasketcells to pvbasketcells.
+Host 157  is connecting: ca3cells to pvbasketcells.
+Host 157  is connecting: pyramidalcells to ca3cells.
+Host 157  is connecting: pvbasketcells to ca3cells.
+Host 157  is connecting: ca3cells to ca3cells.
+Host 157  connected cells.
+Host 32  is connecting: pyramidalcells to pyramidalcells.
+Host 32  is connecting: pvbasketcells to pyramidalcells.
+Host 32  is connecting: ca3cells to pyramidalcells.
+Host 32  is connecting: pyramidalcells to pvbasketcells.
+Host 32  is connecting: pvbasketcells to pvbasketcells.
+Host 32  is connecting: ca3cells to pvbasketcells.
+Host 32  is connecting: pyramidalcells to ca3cells.
+Host 32  is connecting: pvbasketcells to ca3cells.
+Host 32  is connecting: ca3cells to ca3cells.
+Host 32  connected cells.
+Host 51  is connecting: pyramidalcells to pyramidalcells.
+Host 51  is connecting: pvbasketcells to pyramidalcells.
+Host 51  is connecting: ca3cells to pyramidalcells.
+Host 51  is connecting: pyramidalcells to pvbasketcells.
+Host 51  is connecting: pvbasketcells to pvbasketcells.
+Host 51  is connecting: ca3cells to pvbasketcells.
+Host pvbasketcells to ca3cells.
+Host 191  is connecting: ca3cells to ca3cells.
+Host 191  connected cells.
+pyramidalcells to pvbasketcells.
+Host 103  is connecting: pvbasketcells to pvbasketcells.Host 123  is connecting: pyramidalcells to pyramidalcells.
+Host 123  is connecting: pvbasketcells to pyramidalcells.Host 36  is connecting: pyramidalcells to pyramidalcells.
+Host 36  is connecting: pvbasketcells to pyramidalcells.
+Host 36  is connecting: ca3cells to pyramidalcells.
+Host 36  is connecting: pyramidalcells to pvbasketcells.
+Host 36  is connecting: pvbasketcells to pvbasketcells.
+Host 36  is connecting: ca3cells to pvbasketcells.
+Host 36  is connecting: pyramidalcells to ca3cells.
+Host 36  is connecting: pvbasketcells to ca3cells.
+Host 36  is connecting: ca3cells to ca3cells.
+Host 36  connected cells.
+Host 55  is connecting: pyramidalcells to pyramidalcells.
+Host 55  is connecting: pvbasketcells to pyramidalcells.
+Host 55  is connecting: ca3cells to pyramidalcells.
+Host 55  is connecting: pyramidalcells to pvbasketcells.
+Host 55  is connecting: pvbasketcells to pvbasketcells.
+Host Host 196  is connecting: pyramidalcells to pyramidalcells.
+Host 196  is connecting: pvbasketcells to pyramidalcells.
+Host 196  is connecting: ca3cells to pyramidalcells.
+Host 196  is connecting: pyramidalcells to pvbasketcells.
+Host 196  is connecting: pvbasketcells to pvbasketcells.
+Host pyramidalcells.
+Host 101  is connecting: ca3cells to pyramidalcells.
+Host 127  is connecting: pyramidalcells to pyramidalcells.
+Host 127  is connecting: pvbasketcells to pyramidalcells.
+Host Host 8  is connecting: pyramidalcells to pyramidalcells.
+Host 8 Host 69  is connecting: pyramidalcells to pyramidalcells.
+Host 69  is connecting: pvbasketcells to pyramidalcells.
+Host 69  is connecting: ca3cells to pyramidalcells.
+Host 69  is connecting: pyramidalcells to pvbasketcells.
+Host 69  is connecting: pvbasketcells to pvbasketcells.
+Host 69  is connecting: ca3cells to pvbasketcells.
+Host 69  is connecting: pyramidalcells to ca3cells.
+ca3cells.
+Host 198  connected cells.
+
+Host 103  is connecting: ca3cells to pvbasketcells.
+Host 128  is connecting: pyramidalcells to ca3cells.
+Host 128  is connecting: pvbasketcells to ca3cells.
+Host 128  is connecting: ca3cells to ca3cells.
+Host Host 10  is connecting: pyramidalcells to pyramidalcells.
+Host 10  is connecting: pvbasketcells to pyramidalcells.
+Host 10  is connecting: ca3cells to pyramidalcells.
+Host 10  is connecting: pyramidalcells to pvbasketcells.
+Host 75  is connecting: pyramidalcells to pyramidalcells.
+Host 75  is connecting: pvbasketcells to pyramidalcells.
+Host 75  is connecting: ca3cells to pyramidalcells.
+Host 75  is connecting: pyramidalcells to pvbasketcells.
+Host 75  is connecting: pvbasketcells to pvbasketcells.
+Host 75  is connecting: ca3cells to pvbasketcells.
+Host 75  is connecting: pyramidalcells to ca3cells.
+Host 75  is connecting: pvbasketcells to Host 170  is connecting: Host 101  is connecting: pyramidalcells to pvbasketcells.
+pvbasketcells to pvbasketcells.
+Host 132  is connecting: ca3cells to pvbasketcells.
+Host 132  is connecting: pyramidalcells to ca3cells.
+Host 11  is connecting: pvbasketcells to ca3cells.
+Host 11  is connecting: ca3cells to ca3cells.
+Host 11  connected cells.
+40  is connecting: ca3cells to pvbasketcells.
+Host 40  is connecting: pyramidalcells to ca3cells.
+Host 40  is connecting: pvbasketcells to ca3cells.
+Host 40  is connecting: ca3cells to ca3cells.
+Host 40  connected cells.
+Host 176  is connecting: pyramidalcells to ca3cells.
+Host 176  is connecting: pvbasketcells to ca3cells.
+Host 176  is connecting: ca3cells to ca3cells.
+Host Host 103  is connecting: pyramidalcells to ca3cells.
+Host  is connecting: pvbasketcells to ca3cells.
+Host 135  is connecting: ca3cells to ca3cells.
+Host 135  connected cells.
+Host 12  is connecting: pvbasketcells to pvbasketcells.
+Host 12  is connecting: ca3cells to pvbasketcells.
+Host 12  is connecting: pyramidalcells to ca3cells.
+Host 12  is connecting: pvbasketcells to ca3cells.
+Host 12  is connecting: ca3cells to ca3cells.
+Host 12  connected cells.
+Host 41  is connecting: pyramidalcells to pyramidalcells.
+Host 41  is connecting: pvbasketcells to pyramidalcells.
+Host 41  is connecting: ca3cells to pyramidalcells.
+Host 41  is connecting: pyramidalcells to pvbasketcells.
+Host 41  is connecting: pvbasketcells to pvbasketcells.
+Host Host 180  is connecting: pyramidalcells to pyramidalcells.
+Host 180  is connecting: pvbasketcells to pyramidalcells.
+Host 180  is connecting: ca3cells to pyramidalcells.
+Host 180  is connecting: Host 101  is connecting: pvbasketcells to pvbasketcells.
+pyramidalcells to pvbasketcells.
+Host 156  is connecting: pvbasketcells to pvbasketcells.
+Host 156  is connecting: ca3cells to pvbasketcells.
+Host 156  is connecting: pyramidalcells to ca3cells.
+Host 17  is connecting: ca3cells to pvbasketcells.
+Host 17  is connecting: pyramidalcells to ca3cells.
+Host 17  is connecting: pvbasketcells to ca3cells.
+Host 17  is connecting: ca3cells to ca3cells.
+Host 17  connected cells.
+s to ca3cells.
+Host 42  is connecting: ca3cells to ca3cells.
+Host 42  connected cells.
+Host 182  is connecting: pyramidalcells to pyramidalcells.
+Host 182  is connecting: pvbasketcells to pyramidalcells.
+Host 182  is connecting: ca3cells to pyramidalcells.
+Host 182  is connecting: pyramidalcells to pvbasketcell103  is connecting: pvbasketcells to ca3cells.
+Host 103 Host 159  is connecting: pyramidalcells to pyramidalcells.
+Host 159  is connecting: pvbasketcells to pyramidalcells.
+Host 159  is connecting: ca3cells to pyramidalcells.
+Host 159  is connecting: pyramidalcells to pvbasketcells.
+Host 159  is connecting: pvbasketcells to pvbasketcells.
+Host 29  is connecting: ca3cells to ca3cells.
+Host 29  connected cells.
+51  is connecting: pyramidalcells to ca3cells.
+Host 51  is connecting: pvbasketcells to ca3cells.
+Host 51  is connecting: ca3cells to ca3cells.
+Host 51  connected cells.
+Host 183  is connecting: pyramidalcells to ca3cells.
+Host 183  is connecting: pvbasketcells to ca3cells.
+Host 183  is connecting: ca3cells to ca3cells.
+Host 183  connected cells.
+Host 101  is connecting: ca3cells to pvbasketcells.
+
+Host 123  is connecting: ca3cells to pyramidalcells.
+Host 123  is connecting: pyramidalcells to pvbasketcells.
+Host 123  is connecting: pvbasketcells to pvbasketcells.
+Host 123  is connecting: ca3cells to pvbasketcellHost 34  is connecting: pyramidalcells to pyramidalcells.
+Host 34  is connecting: pvbasketcells to pyramidalcells.
+Host 34  is connecting: ca3cells to pyramidalcells.
+Host 34  is connecting: pyramidalcells to pvbasketcells.
+Host 34  is connecting: pvbasketcells to pvbasketcells.
+Host 34  is connecting: ca3cells to pvbasketcells.
+Host 34  is connecting: pyramidalcells to ca3cells.
+Host 34  is connecting: pvbasketcells to ca3cells.
+Host 34  is connecting: ca3cells to ca3cells.
+Host 34  connected cells.
+55  is connecting: ca3cells to pvbasketcells.
+Host 55  is connecting: pyramidalcells to ca3cells.
+Host 55  is connecting: pvbasketcells to ca3cells.
+Host 55  is connecting: ca3cells to ca3cells.
+Host 55  connected cells.
+pvbasketcells.
+Host 188  is connecting: ca3cells to pvbasketcells.
+Host 188  is connecting: pyramidalcells to ca3cells.
+Host 188  is connecting: pvbasketcells to ca3cells.
+Host  is connecting: ca3cells to ca3cells.
+Host 103  connected cells.
+127  is connecting: ca3cells to pyramidalcells.
+Host 127  is connecting: pyramidalcells to pvbasketcells.
+Host 127  is connecting: pvbasketcells to pvbasketcells.
+Host 127  is connecting: ca3cells to pvbasketcells.
+Host 2  is connecting: pyramidalcells to pyramidalcells.
+Host 2  is connecting: pvbasketcells to pyramidalcells.
+Host 69  is connecting: pvbasketcells to ca3cells.
+Host 69  is connecting: ca3cells to ca3cells.
+Host 69  connected cells.
+ca3cells to pvbasketcells.
+Host 189  is connecting: pyramidalcells to ca3cells.
+Host 189  is connecting: pvbasketcells to ca3cells.
+Host 189  is connecting: ca3cells to ca3cells.
+Host Host 90  is connecting: pyramidalcells to pyramidalcells.128  connected cells.
+ is connecting: pvbasketcells to pyramidalcells.
+Host 8  is connecting: ca3cells to pyramidalcells.
+Host 8  is connecting: pyramidalcells to pvbasketcells.
+Host 8  is connecting: pvbasketcells to pvbasketcells.
+Host 8  is connecting: ca3cells to pvbasketcells.
+Host 8  is connecting: pyramidalcells to ca3cells.
+Host 8  is connecting: pvbasketcells to ca3cells.
+Host 8  is connecting: ca3cells to ca3cells.
+Host Host 70  is connecting: pyramidalcells to pyramidalcells.
+Host 70  is connecting: pvbasketcells to pyramidalcells.
+Host 70  is connecting: ca3cells to pyramidalcells.
+Host 70  is connecting: pyramidalcells to pvbasketcells.
+Host 70  is connecting: pvbasketcells to pvbasketcells.
+Host 70  is connecting: 196  is connecting: ca3cells to pvbasketcells.
+Host 196  is connecting: pyramidalcells to ca3cells.
+Host 196  is connecting: pvbasketcells to ca3cells.
+Host 196  is connecting: ca3cellHost 101  is connecting: pyramidalcells to ca3cells.
+Host 101  is connecting: pvbasketcells to ca3cells.
+Host 132  is connecting: pvbasketcells to ca3cells.
+Host 132  is connecting: ca3cells to ca3cells.
+Host 132  connected cells.
+Host 10  is connecting: pvbasketcells to pvbasketcells.
+Host 10  is connecting: ca3cells to pvbasketcells.
+Host 10  is connecting: pyramidalcells to ca3cells.
+Host 10  is connecting: pvbasketcells to ca3cells.
+Host 10  is connecting: ca3cells to ca3cells.
+Host 10  connected cells.
+ca3cells.
+Host 75  is connecting: ca3cells to ca3cells.
+Host 75  connected cells.
+Host 197  is connecting: pyramidalcells to pyramidalcells.
+Host 197  is connecting: pvbasketcells to pyramidalcells.
+Host 197  is connecting: ca3cells to pyramidalcells.
+Host 197  is connecting: pyramidalcells to pvbasketcells.
+Host 197  is connecting: Host 102  is connecting: pyramidalcells to pyramidalcells.
+Host 102 Host 156  is connecting: pvbasketcells to ca3cells.
+Host 156  is connecting: ca3cells to ca3cells.
+Host 156  connected cells.
+Host 2  is connecting: ca3cells to pyramidalcells.
+Host 2  is connecting: pyramidalcells to pvbasketcells.
+Host 2  is connecting: pvbasketcells to pvbasketcells.
+Host 78  is connecting: pyramidalcells to pyramidalcells.
+Host 78  is connecting: pvbasketcells to pyramidalcells.
+Host 78  is connecting: ca3cells to pyramidalcells.
+Host 78  is connecting: pyramidalcells to pvbasketcells.
+Host 78  is connecting: pvbasketcells to pvbasketcells.
+Host 78  is connecting: ca3cells to pvbasketcells.
+Host 78  is connecting: pyramidalcells to ca3cells.
+Host 78  is connecting: pvbasketcells to ca3cells.
+Host 78  is connecting: ca3cells to ca3cells.
+Host 199  is connecting: pyramidalcells to pyramidalcells.
+Host 199  is connecting: pvbasketcells to pyramidalcells.
+Host 199  is connecting: ca3cells to pyramidalcells.
+Host 199  is connecting: pyramidalcells to pvbasketcells.
+Host 199  is connecting: pvbasketcells to pvbasketcells.
+Host 119  is connecting: pyramidalcells to pyramidalcells.
+Host 119  is connecting: pvbasketcells to pyramidalcells.
+Host Host 159  is connecting: ca3cells to pvbasketcells.
+Host 159  is connecting: pyramidalcells to ca3cells.
+Host 159  is connecting: pvbasketcells to ca3cell8  connected cells.
+41  is connecting: ca3cells to pvbasketcells.
+Host 41  is connecting: pyramidalcells to ca3cells.
+Host 41  is connecting: pvbasketcells to ca3cells.
+Host 41  is connecting: ca3cells to ca3cells.
+Host 41  connected cells.
+pyramidalcells to pyramidalcells.
+Host 170  is connecting: pvbasketcells to pyramidalcells.
+Host 170  is connecting: ca3cells to pyramidalcells.
+Host 170  is connecting: pyramidalcells to pvbasketcells.
+
+Host 90  is connecting: pvbasketcells to pyramidalcells.
+Host 90  is connecting: ca3cells to pyramidalcells.
+s.
+Host 123  is connecting: pyramidalcells to ca3cells.
+Host 123  is connecting: pvbasketcells to ca3cells.
+Host 21  is connecting: pyramidalcells to pyramidalcells.
+Host 21  is connecting: pvbasketcells to pyramidalcells.
+Host 21  is connecting: ca3cells to pyramidalcells.
+Host 21  is connecting: pyramidalcells to pvbasketcells.
+Host 50  is connecting: pyramidalcells to pyramidalcells.
+Host 50  is connecting: pvbasketcells to pyramidalcells.
+Host 50 Host 175  is connecting: pyramidalcells to pyramidalcells.
+Host 175  is connecting: pvbasketcells to pyramidalcells.
+Host 175  is connecting: ca3cells to pyramidalcells.
+Host 101  is connecting: ca3cells to ca3cells.
+Host 101  connected cells.
+Host 127  is connecting: pyramidalcells to ca3cells.
+Host 127  is connecting: pvbasketcells to ca3cells.
+Host 127  is connecting: Host 38  is connecting: pyramidalcells to pyramidalcells.
+Host 38  is connecting: pvbasketcells to pyramidalcells.
+Host 38  is connecting: ca3cells to pyramidalcells.
+Host 38  is connecting: pyramidalcells to pvbasketcells.
+Host 38  is connecting: pvbasketcells to pvbasketcells.
+ca3cells to pvbasketcells.
+Host 70  is connecting: pyramidalcells to ca3cells.
+Host 70  is connecting: pvbasketcells to ca3cells.
+Host 70  is connecting: ca3cells to ca3cells.
+Host 70  connected cells.
+176  connected cells.
+ is connecting: pvbasketcells to pyramidalcells.
+Host 102  is connecting: ca3cells to pyramidalcells.
+s.
+Host 159  is connecting: ca3cells to ca3cells.
+Host 159  connected cells.
+Host 2  is connecting: ca3cells to pvbasketcells.
+Host 2  is connecting: pyramidalcells to ca3cells.
+Host 2  is connecting: pvbasketcells to ca3cells.
+Host 2  is connecting: ca3cells to ca3cells.Host 71  is connecting: pyramidalcells to pyramidalcells.
+Host 71  is connecting: pvbasketcells to pyramidalcells.
+pyramidalcells to pvbasketcells.
+Host 180  is connecting: pvbasketcells to pvbasketcells.
+Host 180  is connecting: ca3cells to pvbasketcells.
+Host 180  is connecting: pyramidalcells to ca3cells.
+Host 119  is connecting: ca3cells to pyramidalcells.
+Host 119  is connecting: pyramidalcells to Host 123  is connecting: ca3cells to ca3cells.
+Host 123  connected cells.
+Host 14  is connecting: pyramidalcells to pyramidalcells.
+Host 14  is connecting: pvbasketcells to pyramidalcells.
+Host 72  is connecting: pyramidalcells to pyramidalcells.
+Host 72  is connecting: pvbasketcells to pyramidalcells.
+Host 72  is connecting: ca3cells to pyramidalcells.
+Host 72  is connecting: pyramidalcells to pvbasketcells.
+Host 182  is connecting: pvbasketcells to pvbasketcells.
+Host 182  is connecting: ca3cells to pvbasketcells.
+Host 182  is connecting: pyramidalcells to ca3cells.
+Host 90  is connecting: pyramidalcells to pvbasketcells.
+Host 90  is connecting: pvbasketcells to pvbasketcells.ca3cells to ca3cells.
+Host 127  connected cells.
+Host 21  is connecting: pvbasketcells to pvbasketcells.
+Host 21  is connecting: ca3cells to pvbasketcells.
+Host 21  is connecting: pyramidalcells to ca3cells.
+Host 21  is connecting: pvbasketcells to ca3cells.
+Host Host 78  connected cells.
+188  is connecting: ca3cells to ca3cells.
+Host 188  connected cells.
+Host 102  is connecting: pyramidalcells to pvbasketcells.
+Host 102 Host 140  is connecting: pyramidalcells to pyramidalcells.
+Host 140  is connecting: pvbasketcells to pyramidalcells.
+Host 37  is connecting: pyramidalcells to pyramidalcells.
+Host 37  is connecting: pvbasketcells to pyramidalcells.
+Host 37  is connecting: ca3cells to Host 44  is connecting: pyramidalcells to pyramidalcells.
+Host 44  is connecting: pvbasketcells to pyramidalcells.
+189  connected cells.
+pvbasketcells.
+Host 119  is connecting: pvbasketcells to pvbasketcells.
+Host 119  is connecting: ca3cells to pvbasketcells.
+Host 140  is connecting: ca3cells to pyramidalcells.
+Host Host 38  is connecting: ca3cells to pvbasketcells.
+Host 38  is connecting: pyramidalcells to ca3cells.
+Host 38  is connecting: pvbasketcells to ca3cells.
+Host 38  is connecting: ca3cells to ca3cells.
+Host 38  connected cells.
+ is connecting: ca3cells to pyramidalcells.
+Host 50  is connecting: pyramidalcells to pvbasketcells.
+Host s to ca3cells.
+Host 196  connected cells.
+
+Host 90  is connecting: ca3cells to pvbasketcells.
+Host 90  is connecting: pyramidalcells to ca3cells.
+Host Host 143  is connecting: pyramidalcells to pyramidalcells.
+Host 143  is connecting: pvbasketcells to pyramidalcells.
+Host 143  is connecting: ca3cells to pyramidalcells.
+Host Host 57  is connecting: pvbasketcells to pvbasketcells.
+Host 197  is connecting: ca3cells to pvbasketcells.
+Host 197  is connecting: pyramidalcells to ca3cells.
+Host 197  is connecting: pvbasketcells to ca3cells.
+Host 197  is connecting: ca3cells to ca3cell is connecting: pvbasketcells to pvbasketcells.
+Host 102  is connecting: ca3cells to pvbasketcells.
+Host 102 Host 147  is connecting: pyramidalcells to pyramidalcells.
+Host 147  is connecting: pvbasketcells to pyramidalcells.
+Host 
+Host 2  connected cells.
+Host 71  is connecting: ca3cells to pyramidalcells.
+Host 71  is connecting: pyramidalcellHost 199  is connecting: ca3cells to pvbasketcells.
+Host 199  is connecting: pyramidalcells to ca3cells.
+Host 199  is connecting: pvbasketcells to ca3cells.
+Host 199  is connecting: ca3cells to ca3cells.
+Host 199  connected cells.
+Host 119  is connecting: pyramidalcells to ca3cells.
+Host 119  is connecting: pvbasketcells to ca3cells.
+Host 125  is connecting: pyramidalcells to pyramidalcells.
+Host 125  is connecting: pvbasketcells to pyramidalcellHost 3  is connecting: pyramidalcells to pyramidalcells.
+Host 3  is connecting: pvbasketcells to pyramidalcells.
+Host 3  is connecting: ca3cells to pyramidalcells.
+Host 3  is connecting: pyramidalcells to pvbasketcells.
+Host 3  is connecting: pvbasketcells to pvbasketcells.
+Host 3  is connecting: ca3cells to pvbasketcells.
+Host 3  is connecting: s.
+Host 72  is connecting: pvbasketcells to pvbasketcells.
+Host 72  is connecting: ca3cells to pvbasketcells.
+Host 161  is connecting: pyramidalcells to pyramidalcells.
+Host 161  is connecting: pvbasketcells to pyramidalcells.
+Host 161  is connecting: ca3cells to pyramidalcells.
+Host 161 90  is connecting: pvbasketcells to ca3cells.
+Host 90  is connecting: ca3cells to ca3cells.
+Host 90 Host 129  is connecting: pyramidalcells to pyramidalcells.
+Host Host 14  is connecting: ca3cells to pyramidalcells.
+Host 14  is connecting: pyramidalcells to pvbasketcells.
+Host 14  is connecting: pvbasketcells to pvbasketcells.
+Host 14  is connecting: ca3cells to pvbasketcells.
+Host 14  is connecting: pyramidalcells to ca3cells.
+Host 14  is connecting: pvbasketcells to ca3cells.
+Host 14  is connecting: ca3cells to ca3cells.
+Host 74  is connecting: pyramidalcells to pyramidalcells.
+Host 74  is connecting: pvbasketcells to pyramidalcells.
+Host 74  is connecting: ca3cells to pyramidalcells.
+Host 166  is connecting: pyramidalcells to pyramidalcells.
+Host 166  is connecting: pvbasketcells to pyramidalcells.
+Host 166  is connecting: ca3cells to pyramidalcells.
+Host 166  is connecting: pyramidalcells to pvbasketcells.
+Host 166  is connecting: pvbasketcells to pvbasketcells.
+Host 166  is connecting: pyramidalcells to ca3cells.
+Host 102  is connecting: pvbasketcells to ca3cells.
+Host 102 140  is connecting: pyramidalcells to pvbasketcells.
+Host 140  is connecting: pvbasketcells to pvbasketcells.
+Host 140  is connecting: ca3cells to pvbasketcells.
+Host 140  is connecting: pyramidalcells to ca3cells.21  is connecting: ca3cells to ca3cells.
+Host 21  connected cells.
+Host 44  is connecting: ca3cells to pyramidalcells.
+Host 44 Host 170  is connecting: pvbasketcells to pvbasketcells.
+Host 170  is connecting: ca3cells to pvbasketcells.
+Host 170  is connecting: pyramidalcells to ca3cells.
+Host 170  is connecting: pvbasketcells to ca3cells.
+Host 170  is connecting: ca3cells to ca3cells.
+Host 170  connected cells.
+Host 119  is connecting: ca3cells to ca3cells.
+Host 119  connected cells.
+Host 143  is connecting: pyramidalcells to pvbasketcells.
+Host 143  is connecting: pvbasketcells to pvbasketcells.
+Host 143  is connecting: ca3cells to pvbasketcells.
+Host 24  is connecting: pyramidalcells to pyramidalcells.
+Host 24  is connecting: pvbasketcells to pyramidalcells.
+Host 24  is connecting: ca3cells to pyramidalcells.
+Host 24  is connecting: pyramidalcells to pvbasketcells.
+Host 24  is connecting: pvbasketcells to pvbasketcells.
+Host 24  is connecting: ca3cells to pvbasketcells.
+Host 24  is connecting: pyramidalcells to ca3cells.
+Host 24 50  is connecting: pvbasketcells to pvbasketcells.
+Host 50  is connecting: ca3cells to pvbasketcells.
+Host 50 Host 175  is connecting: pyramidalcells to pvbasketcells.
+Host 175  is connecting: pvbasketcells to pvbasketcells.
+Host 175  is connecting: ca3cells to pvbasketcells.
+Host 175  is connecting: pyramidalcells to ca3cells.
+Host 175  is connecting: pvbasketcells to ca3cells.
+ connected cells.
+147  is connecting: ca3cells to pyramidalcells.
+Host 147  is connecting: pyramidalcells to pvbasketcells.
+Host 147  is connecting: pvbasketcells to pvbasketcells.
+Host 25  is connecting: pyramidalcells to pyramidalcells.
+Host 25  is connecting: pvbasketcells to pyramidalcells.
+Host 25  is connecting: ca3cells to pyramidalcells.
+Host 25  is connecting: pyramidalcells to pvbasketcells.
+Host 25  is connecting: pvbasketcells to pvbasketcells.
+Host 25  is connecting: ca3cells to pvbasketcells.
+Host 25  is connecting: pyramidalcells to ca3cells.
+Host 25  is connecting: pvbasketcells to ca3cells.
+Host 25  is connecting: pyramidalcells to pyramidalcells.
+Host 57  is connecting: pvbasketcells to pyramidalcells.
+Host Host 179  is connecting: pyramidalcells to pyramidalcells.
+Host 179  is connecting: pvbasketcells to pyramidalcells.
+Host 179  is connecting: ca3cells to pyramidalcells.Host 100  is connecting: pyramidalcells to pyramidalcells.
+Host s.
+Host 125  is connecting: ca3cells to pyramidalcells.
+Host 125  is connecting: pyramidalcells to pvbasketcellpyramidalcells.
+Host 37  is connecting: pyramidalcells to pvbasketcells.
+Host 37  is connecting: pvbasketcells to pvbasketcells.
+Host 37  is connecting: ca3cells to pvbasketcells.
+Host 37  is connecting: pyramidalcells to ca3cells.
+Host 37  is connecting: pvbasketcells to ca3cells.
+Host 37  is connecting: ca3cells to ca3cells.
+Host 37  connected cells.
+Host 62  is connecting: pyramidalcells to pyramidalcells.
+Host 62  is connecting: pvbasketcells to pyramidalcells.
+180  is connecting: pvbasketcells to ca3cells.
+Host 180  is connecting: ca3cells to ca3cells.
+Host 180  connected cells.
+ is connecting: ca3cells to ca3cells.
+Host 102  connected cells.
+129  is connecting: pvbasketcells to pyramidalcells.
+Host 129  is connecting: ca3cells to pyramidalcells.
+Host 39  is connecting: pyramidalcells to pyramidalcells.
+Host 39  is connecting: pvbasketcells to pyramidalcells.
+Host 39  is connecting: ca3cells to pyramidalcells.
+Host 39  is connecting: pyramidalcells to pvbasketcells.
+Host 39  is connecting: pvbasketcells to pvbasketcells.
+Host 39  is connecting: ca3cells to pvbasketcells.
+Host 39  is connecting: pyramidalcells to ca3cells.
+Host Host 65  is connecting: pyramidalcells to pyramidalcells.
+Host 65  is connecting: pvbasketcells to pyramidalcells.
+Host 65  is connecting: Host 182  is connecting: pvbasketcells to ca3cells.
+Host 182  is connecting: ca3cells to ca3cells.
+Host 182  connected cells.
+100  is connecting: pvbasketcells to pyramidalcells.
+Host 
+Host 140  is connecting: pvbasketcells to ca3cells.
+Host 140  is connecting: 1  is connecting: pyramidalcells to pyramidalcells.
+Host 1  is connecting: pvbasketcells to pyramidalcells.
+Host 1  is connecting: ca3cells to pyramidalcells.
+Host 1  is connecting: pyramidalcells to pvbasketcells.
+s to pvbasketcells.
+Host 71  is connecting: pvbasketcells to pvbasketcells.
+Host 71  is connecting: ca3cells to pvbasketcells.
+Host 71  is connecting: pyramidalcells to ca3cells.s.
+Host 197  connected cells.
+Host 108  is connecting: pyramidalcells to pyramidalcells.
+Host Host 143  is connecting: pyramidalcells to ca3cells.
+Host 143  is connecting: pyramidalcells to ca3cells.
+Host 3  is connecting: pvbasketcells to ca3cells.
+Host 3  is connecting: ca3cells to ca3cells.
+Host 3  connected cells.
+Host 72  is connecting: pyramidalcells to ca3cells.
+Host 72  is connecting: pvbasketcells to ca3cells.
+Host 72  is connecting: ca3cells to ca3cells.
+Host  is connecting: pyramidalcells to pvbasketcells.
+Host 161  is connecting: pvbasketcells to pvbasketcells.
+Host 161  is connecting: ca3cells to pvbasketcells.
+Host 161  is connecting: pyramidalcells to ca3cells.
+Host 161 100  is connecting: ca3cells to pyramidalcells.
+Host 147  is connecting: ca3cells to pvbasketcells.
+Host 147 Host 5  is connecting: pyramidalcells to pyramidalcells.
+Host 5  is connecting: pvbasketcells to pyramidalcells.
+Host 5  is connecting: ca3cells to pyramidalcells.
+Host 5  is connecting: pyramidalcells to pvbasketcells.
+Host 5  is connecting: pvbasketcells to pvbasketcells.
+Host 5  is connecting: ca3cells to pvbasketcells.
+Host 5  is connecting: pyramidalcells to ca3cells.
+Host 5  is connecting: pvbasketcells to ca3cells.
+Host 5  is connecting: ca3cells to ca3cells.
+Host 5  connected cells.
+Host 74  is connecting: pyramidalcells to pvbasketcells.
+Host 74  is connecting: pvbasketcells to pvbasketcells.
+Host 74  is connecting: ca3cells to pvbasketcells.
+ is connecting: ca3cells to pvbasketcells.
+Host 166  is connecting: pyramidalcells to ca3cells.
+Host 166  is connecting: pvbasketcells to ca3cells.
+Host 166  is connecting: ca3cells to ca3cells.
+108  is connecting: pvbasketcells to pyramidalcells.
+Host s.
+Host 125  is connecting: pvbasketcells to pvbasketcells.
+Host 125  is connecting: ca3cellHost 9  is connecting: pyramidalcells to pyramidalcells.
+Host 9  is connecting: pvbasketcells to pyramidalcells.
+Host 9  is connecting: ca3cells to pyramidalcells.
+Host 9  is connecting: pyramidalcells to pvbasketcells.
+Host 9  is connecting: pvbasketcells to pvbasketcells.
+Host 9  is connecting: ca3cells to pvbasketcells.
+ is connecting: pyramidalcells to pvbasketcells.
+Host 44  is connecting: pvbasketcells to pvbasketcells.
+Host 44  is connecting: ca3cells to pvbasketcells.
+Host 44  is connecting: pyramidalcells to Host 175  is connecting: ca3cells to ca3cells.
+Host 175  connected cells.
+Host 100  is connecting: pyramidalcells to pvbasketcells.
+Host 129  is connecting: pyramidalcells to pvbasketcells.
+Host 13  is connecting: pyramidalcells to pyramidalcells.
+Host 13  is connecting: pvbasketcells to pyramidalcells.
+Host 13  is connecting: ca3cells to pyramidalcells.
+Host 13  is connecting: pyramidalcells to pvbasketcells.
+Host 13  is connecting: pvbasketcells to pvbasketcells.
+Host 13  is connecting: ca3cells to pvbasketcells.
+Host 13  is connecting: pyramidalcells to ca3cells.
+ is connecting: pyramidalcells to ca3cells.
+Host 50  is connecting: pvbasketcells to ca3cells.
+Host 50  is connecting: ca3cells to ca3cells.
+Host 50  connected cells.
+Host 178  is connecting: pyramidalcells to pyramidalcells.
+Host 178  is connecting: pvbasketcells to pyramidalcells.
+Host Host 105  is connecting: pyramidalcells to Host 138  is connecting: pyramidalcells to pyramidalcells.
+Host 138 Host 14  connected cells.
+57  is connecting: ca3cells to pyramidalcells.
+Host 57  is connecting: pyramidalcells to pvbasketcells.
+Host 57 
+Host 179  is connecting: pyramidalcells to pvbasketcells.
+Host 179  is connecting: pvbasketcells to pvbasketcells.
+Host 179  is connecting: ca3cells to pvbasketcells.
+Host 108  is connecting: ca3cells to pyramidalcells.
+Host 108 Host 139  is connecting: pyramidalcells to pyramidalcells.
+Host 139  is connecting: pvbasketcells to pyramidalcells.
+Host Host 23  is connecting: pyramidalcells to pyramidalcells.
+Host 23  is connecting: pvbasketcells to pyramidalcells.
+Host 23  is connecting: ca3cells to pyramidalcells.
+Host 23  is connecting: pyramidalcells to pvbasketcells.
+Host 23  is connecting: pvbasketcells to pvbasketcells.
+Host 23  is connecting: ca3cells to pvbasketcells.
+Host 23  is connecting: pyramidalcells to ca3cells.
+Host 23  is connecting: pvbasketcells to ca3cells.
+Host 23  is connecting: ca3cells to ca3cells.
+Host 23  connected cells.
+Host 62  is connecting: ca3cells to pyramidalcells.
+Host 62  is connecting: pyramidalcells to pvbasketcells.
+Host 62  is connecting: pvbasketcells to pvbasketcell is connecting: pvbasketcells to ca3cells.
+Host 161  is connecting: ca3cells to ca3cells.
+Host 161  connected cells.
+Host 88  is connecting: pyramidalcells to pyramidalcells.
+Host ca3cells to ca3cells.
+Host 140  connected cells.
+ is connecting: pvbasketcells to ca3cells.
+Host 24  is connecting: ca3cells to ca3cells.
+Host 24  connected cells.
+ca3cells to pyramidalcells.
+Host 65  is connecting: pyramidalcells to pvbasketcells.
+Host 65  is connecting: pvbasketcells to pvbasketcells.
+Host Host 166  connected cells.
+Host 100  is connecting: pvbasketcells to pvbasketcells.
+Host pvbasketcells to ca3cells.
+Host 143  is connecting: ca3cells to ca3cells.
+Host 143  connected cells.
+ca3cells to ca3cells.
+Host 25  connected cells.
+
+Host 71  is connecting: pvbasketcells to ca3cells.
+Host 71  is connecting: ca3cells to ca3cells.
+Host 71  connected cells.
+Host 173  is connecting: pyramidalcells to pyramidalcells.
+Host 173  is connecting: pvbasketcells to pyramidalcells.
+Host 173  is connecting: ca3cells to pyramidalcells.
+pyramidalcells.
+Host 105  is connecting: pvbasketcells to pyramidalcells.
+ is connecting: pyramidalcells to ca3cells.
+Host 147  is connecting: pvbasketcells to ca3cells.
+Host 147  is connecting: ca3cells to ca3cells.
+Host 147  connected cells.Host 26  is connecting: pyramidalcells to pyramidalcells.
+Host 26  is connecting: pvbasketcells to pyramidalcells.
+Host 26  is connecting: ca3cells to pyramidalcells.
+Host 26  is connecting: pyramidalcells to pvbasketcells.
+Host 26  is connecting: pvbasketcells to pvbasketcells.
+Host 26  is connecting: ca3cells to pvbasketcells.
+Host 26  is connecting: pyramidalcells to ca3cells.
+Host 26  is connecting: pvbasketcells to ca3cells.
+Host 26  is connecting: ca3cells to ca3cells.
+Host 26  connected cells.
+72  connected cells.
+178  is connecting: ca3cells to pyramidalcells.
+Host 178  is connecting: pyramidalcells to pvbasketcells.
+Host 178  is connecting: pvbasketcells to pvbasketcells.
+ is connecting: pyramidalcells to pvbasketcells.
+Host 108  is connecting: pvbasketcells to pvbasketcells.
+Host 121  is connecting: pyramidalcells to pyramidalcells.
+Host 121  is connecting: pvbasketcells to pyramidalcells.
+Host Host 28  is connecting: pyramidalcells to pyramidalcells.
+Host 28  is connecting: pvbasketcells to pyramidalcells.
+Host 28  is connecting: ca3cells to pyramidalcells.
+Host 28  is connecting: pyramidalcells to pvbasketcells.
+Host 28  is connecting: pvbasketcells to pvbasketcells.
+Host 28  is connecting: ca3cells to pvbasketcells.
+Host 28  is connecting: pyramidalcells to ca3cells.
+Host 28  is connecting: pvbasketcells to ca3cells.
+Host 28  is connecting: ca3cells to ca3cells.
+Host 28  connected cells.
+Host 74  is connecting: pyramidalcells to ca3cells.
+Host 74  is connecting: pvbasketcells to ca3cells.
+Host 74  is connecting: ca3cells to ca3cells.
+Host 74  connected cells.
+179  is connecting: pyramidalcells to ca3cells.
+Host 179  is connecting: pvbasketcells to ca3cells.
+Host 179  is connecting: ca3cells to ca3cells.
+Host 179  connected cells.
+88  is connecting: pvbasketcells to pyramidalcells.
+Host 88  is connecting: ca3cells to s to pvbasketcells.
+Host 125  is connecting: pyramidalcells to ca3cells.
+Host 125  is connecting: pvbasketcells to ca3cells.
+Host 125  is connecting: ca3cells to ca3cells.
+Host 35  is connecting: pyramidalcells to pyramidalcells.
+Host 35  is connecting: pvbasketcells to pyramidalcells.
+Host 35  is connecting: ca3cells to pyramidalcells.
+Host 35  is connecting: pyramidalcells to pvbasketcells.
+Host 35  is connecting: pvbasketcells to pvbasketcells.
+Host 35  is connecting: ca3cells to pvbasketcells.
+Host 35  is connecting: pyramidalcells to ca3cells.
+Host 35  is connecting: pvbasketcells to ca3cells.
+Host 35  is connecting: ca3cells to ca3cells.
+Host 35  connected cells.
+ca3cells.
+Host 44  is connecting: pvbasketcells to ca3cells.
+Host 44  is connecting: ca3cells to ca3cells.
+Host 44  connected cells.
+Host 195  is connecting: pyramidalcells to pyramidalcells.
+Host 195  is connecting: pvbasketcells to pyramidalcells.
+Host 195  is connecting: ca3cells to pyramidalcells.
+Host 89  is connecting: pyramidalcells to pyramidalcells.
+Host 89  is connecting: Host 129  is connecting: pvbasketcells to pvbasketcells.
+Host 129  is connecting: ca3cells to pvbasketcells.
+Host 129 39  is connecting: pvbasketcells to ca3cells.
+Host 39  is connecting: ca3cells to ca3cells.
+Host 39  connected cells.
+Host 47  is connecting: pyramidalcells to pyramidalcells.
+Host 47  is connecting: pvbasketcells to pyramidalcells.
+Host 47  is connecting: ca3cells to pyramidalcells.
+Host 173  is connecting: pyramidalcells to pvbasketcells.
+Host 173  is connecting: pvbasketcellHost 91  is connecting: pyramidalcells to pyramidalcells.
+Host 91  is connecting: Host 131  is connecting: pyramidalcells to pyramidalcells.
+Host 131  is connecting: pvbasketcells to pyramidalcells.
+Host 131  is connecting: ca3cells to pyramidalcells.
+Host 131  is connecting: pyramidalcellHost 1  is connecting: pvbasketcells to pvbasketcells.
+Host 1  is connecting: ca3cells to pvbasketcells.
+Host 53  is connecting: pyramidalcells to pyramidalcells.
+Host 53  is connecting: pvbasketcells to pyramidalcells.
+Host 53  is connecting: ca3cells to pyramidalcells.
+Host 178  is connecting: ca3cells to pvbasketcells.
+Host 178  is connecting: pyramidalcell100  is connecting: ca3cells to pvbasketcells.
+Host  is connecting: pvbasketcells to pyramidalcells.
+Host 138  is connecting: ca3cells to pyramidalcells.
+Host 138  is connecting: pyramidalcells to pvbasketcells.
+Host 9  is connecting: pyramidalcells to ca3cells.
+Host 9  is connecting: pvbasketcells to ca3cells.
+Host 9  is connecting: ca3cells to ca3cells.
+Host 9  connected cells.
+ is connecting: pvbasketcells to pvbasketcells.
+Host 57  is connecting: ca3cells to pvbasketcells.
+Host 57  is connecting: pyramidalcells to ca3cells.
+Host Host 181  is connecting: pyramidalcells to pyramidalcells.
+Host 105  is connecting: ca3cells to pyramidalcells.
+Host 105  is connecting: pyramidalcells to pvbasketcells.139  is connecting: ca3cells to pyramidalcells.
+Host 139  is connecting: pyramidalcells to pvbasketcells.
+Host 139  is connecting: pvbasketcells to pvbasketcells.
+Host 139  is connecting: Host 13  is connecting: pvbasketcells to ca3cells.
+Host 13  is connecting: ca3cells to ca3cells.
+Host 13  connected cells.
+s.
+Host 62  is connecting: ca3cells to pvbasketcells.
+Host 62  is connecting: pyramidalcells to ca3cells.
+Host 62  is connecting: pvbasketcells to ca3cells.
+Host 62  is connecting: ca3cells to ca3cells.
+Host Host 195  is connecting: pyramidalcells to pvbasketcells.
+Host 195  is connecting: pvbasketcells to pvbasketcells.
+Host 195  is connecting: Host 108  is connecting: ca3cells to pvbasketcells.
+Host 108  is connecting: pyramidalcells to ca3cellHost 142  is connecting: pyramidalcells to pyramidalcells.
+Host 142  is connecting: pvbasketcells to pyramidalcells.
+Host 142  is connecting: ca3cells to pyramidalcells.
+Host 142  is connecting: pyramidalcells to pvbasketcells.
+Host Host 15  is connecting: pyramidalcells to pyramidalcells.
+Host 15  is connecting: pvbasketcells to pyramidalcells.
+Host 15  is connecting: ca3cells to pyramidalcells.
+Host 15  is connecting: pyramidalcells to pvbasketcells.
+Host 15  is connecting: pvbasketcells to pvbasketcells.
+Host 15  is connecting: ca3cells to pvbasketcells.
+Host 15  is connecting: pyramidalcells to ca3cells.
+Host 15  is connecting: pvbasketcells to ca3cells.
+Host 15  is connecting: ca3cells to ca3cells.
+Host 15  connected cells.
+65  is connecting: ca3cells to pvbasketcells.
+Host 65  is connecting: pyramidalcells to ca3cells.
+Host 65  is connecting: pvbasketcells to ca3cells.
+Host 65  is connecting: ca3cells to ca3cells.
+Host 65  connected cells.
+s to pvbasketcells.
+Host 173  is connecting: ca3cells to pvbasketcells.
+Host 173 pyramidalcells.
+Host 88  is connecting: pyramidalcells to pvbasketcells.
+Host 88  is connecting: 
+Host 22  is connecting: pyramidalcells to pyramidalcells.
+Host 22  is connecting: pvbasketcells to pyramidalcells.
+Host 22  is connecting: ca3cells to pyramidalcells.
+Host Host 68  is connecting: pyramidalcells to pyramidalcells.
+Host 68  is connecting: pvbasketcells to pyramidalcells.
+Host 68  is connecting: ca3cells to pyramidalcells.
+s to ca3cells.
+Host 178  is connecting: pvbasketcells to ca3cells.
+Host 178  is connecting: ca3cells to ca3cells.
+Host pvbasketcells to pyramidalcells.
+Host 89  is connecting: ca3cells to pyramidalcells.
+Host 89  is connecting: pyramidalcells to pvbasketcells.Host 152  is connecting: pyramidalcells to pyramidalcells.
+Host 152  is connecting: pvbasketcells to pyramidalcells.
+Host 152  is connecting: ca3cells to pyramidalcells.
+Host 152  is connecting: pyramidalcells to pvbasketcells.
+Host 152 22  is connecting: pyramidalcells to pvbasketcells.
+Host 22  is connecting: pvbasketcells to pvbasketcells.
+Host 45  is connecting: pyramidalcells to pyramidalcells.
+Host 45  is connecting: Host 181  is connecting: pvbasketcells to pyramidalcells.
+Host 181  is connecting: ca3cells to pyramidalcells.
+pvbasketcells to pyramidalcells.
+Host 91  is connecting: ca3cells to pyramidalcells.
+Host 91  is connecting: pyramidalcells to pvbasketcells.
+Host 153  is connecting: pyramidalcells to pyramidalcells.
+Host 153  is connecting: pvbasketcells to pyramidalcells.
+Host 153  is connecting: ca3cells to pyramidalcells.
+Host 153  is connecting: pyramidalcells to pvbasketcells.
+Host 153  is connecting: pvbasketcells to Host 22  is connecting: ca3cells to pvbasketcells.
+Host 22  is connecting: pyramidalcellHost 46  is connecting: pyramidalcells to pyramidalcells.
+Host 46  is connecting: pvbasketcells to pyramidalcells.
+Host 46  is connecting: ca3cellca3cells to pvbasketcells.
+Host 195  is connecting: pyramidalcells to ca3cells.
+Host 100  is connecting: pyramidalcells to ca3cells.
+Host 100  is connecting: pvbasketcells to ca3cells.
+Host 100  is connecting: ca3cells to ca3cells.121  is connecting: ca3cells to pyramidalcells.
+Host 121  is connecting: pyramidalcells to pvbasketcells.
+Host 121  is connecting: pvbasketcells to pvbasketcells.
+Host 121  is connecting: ca3cells to pvbasketcells.
+Host Host 16 Host 47  is connecting: pyramidalcells to pvbasketcells.
+Host 47  is connecting: pvbasketcells to pvbasketcells.
+Host 47  is connecting: ca3cells to pvbasketcells.
+Host 163  is connecting: 
+Host 105  is connecting: pvbasketcells to pvbasketcells.
+Host 105  is connecting: ca3cells to pvbasketcells.
+Host 125  connected cells.
+s to ca3cells.
+Host 22  is connecting: pvbasketcells to ca3cells.
+Host 22  is connecting: ca3cells to ca3cells.
+Host 53  is connecting: pyramidalcells to pvbasketcells.
+Host 53  is connecting: pvbasketcells to pvbasketcells.
+Host 53  is connecting: ca3cells to pvbasketcells.
+Host 53  is connecting: pyramidalcells to ca3cells.
+ is connecting: pyramidalcells to ca3cells.
+Host 173  is connecting: pvbasketcells to ca3cells.
+Host 173  is connecting: ca3cells to ca3cells.
+Host 173 s.
+Host 108  is connecting: pvbasketcells to ca3cells.
+Host 108  is connecting: ca3cells to ca3cells.
+Host  is connecting: pyramidalcells to ca3cells.
+Host 129  is connecting: pvbasketcells to ca3cells.
+Host 129  is connecting: ca3cells to ca3cells.
+Host 129  connected cells.
+ is connecting: pyramidalcells to pyramidalcells.
+Host 16  is connecting: pvbasketcells to pyramidalcells.
+Host 16  is connecting: ca3cells to 57  is connecting: pvbasketcells to ca3cells.
+Host 57  is connecting: ca3cells to ca3cells.
+Host 57  connected cells.
+178  connected cells.
+pvbasketcells to pvbasketcells.
+Host 88  is connecting: ca3cells to pvbasketcells.
+Host 88  is connecting: pyramidalcells to ca3cells to pvbasketcells.
+Host 131  is connecting: pvbasketcells to pvbasketcells.
+Host 131  is connecting: ca3cells to pvbasketcells.
+Host 131  is connecting: pyramidalcells to ca3cells.
+Host 131  is connecting: pvbasketcells to ca3cells.
+Host 22  connected cells.
+62  connected cells.
+Host 181  is connecting: pyramidalcells to pvbasketcells.
+Host 181  is connecting: pvbasketcells to pvbasketcells.
+Host 
+Host 89  is connecting: pvbasketcells to pvbasketcells.
+Host 89  is connecting: ca3cells to pvbasketcells.
+Host 137  is connecting: pyramidalcells to pyramidalcells.
+Host 137  is connecting: pvbasketcells to pyramidalcells.
+Host 137  is connecting: ca3cells to pyramidalcells.
+Host 137  is connecting: pyramidalcells to pvbasketcells.
+pyramidalcells.
+Host 16  is connecting: pyramidalcells to pvbasketcells.
+Host 16  is connecting: pvbasketcells to pvbasketcellHost 64  is connecting: pyramidalcells to pyramidalcells.
+Host 64  is connecting: pvbasketcells to pyramidalcells.
+Host 64  is connecting: ca3cells to pyramidalcells.
+Host 195  is connecting: pvbasketcells to ca3cells.
+Host 195  is connecting: ca3cells to ca3cells.
+Host 195  connected cells.
+Host 91  is connecting: pvbasketcells to pvbasketcells.
+Host 91  is connecting: ca3cells to pvbasketcells.
+Host 138  is connecting: pvbasketcells to pvbasketcells.
+Host 138  is connecting: ca3cells to pvbasketcells.
+Host 138  is connecting: pyramidalcells to ca3cells.
+Host 138  is connecting: pvbasketcells to ca3cells.
+Host 138  is connecting: ca3cells to ca3cells.
+Host s.
+Host 16  is connecting: ca3cells to pvbasketcells.
+Host Host 68  is connecting: pyramidalcells to pvbasketcells.
+Host 68  is connecting: pvbasketcells to pvbasketcells.
+Host 68  is connecting: ca3cells to pvbasketcells.
+Host 68  is connecting: pyramidalcells to ca3cells.
+Host 68  is connecting: pvbasketcells to pyramidalcells to pyramidalcells.
+Host 163  is connecting: pvbasketcells to pyramidalcells.
+Host 163  is connecting: ca3cell
+Host 100  connected cells.
+ca3cells to pvbasketcells.
+Host 139  is connecting: pyramidalcells to ca3cells.
+Host 139  is connecting: pvbasketcells to ca3cells.
+Host 139  is connecting: ca3cells to ca3cells.
+Host 139  connected cells.
+16  is connecting: pyramidalcells to ca3cells.
+Host 16  is connecting: pvbasketcells to ca3cells.
+pvbasketcells to pyramidalcells.
+Host 45  is connecting: ca3cells to pyramidalcells.
+Host 45  is connecting: pyramidalcells to pvbasketcells.
+Host 45  is connecting: pvbasketcells to pvbasketcells.
+Host 45 Host 164  is connecting: pyramidalcells to pyramidalcells.
+Host 164  is connecting: pvbasketcells to pyramidalcells.
+Host 164 Host 105  is connecting: pyramidalcells to ca3cells.
+Host 105  is connecting: pvbasketcells to ca3cells.
+Host 142  is connecting: pvbasketcells to pvbasketcells.
+Host 142  is connecting: ca3cells to pvbasketcells.
+Host 142  is connecting: pyramidalcells to ca3cells.
+Host 142  is connecting: pvbasketcells to ca3cells.
+Host 142  is connecting: ca3cells to ca3cells.
+Host 142  connected cells.
+Host 16  is connecting: ca3cells to ca3cells.
+Host 16  connected cells.s to pyramidalcells.
+Host 46  is connecting: pyramidalcells to pvbasketcells.
+Host 46  is connecting: pvbasketcells to pvbasketcells.
+Host 46  is connecting: ca3cells to pvbasketcells.
+Host 46  is connecting: pyramidalcells to ca3cells.
+Host Host 168  is connecting: pyramidalcells to pyramidalcells.
+Host 168  is connecting: pvbasketcells to pyramidalcells.
+Host 108  connected cells.
+ is connecting: pvbasketcells to pvbasketcells.
+Host 152  is connecting: ca3cells to pvbasketcells.
+Host 152  is connecting: pyramidalcells to ca3cells.
+Host 152  is connecting: pvbasketcells to ca3cells.
+Host 152 Host 31  is connecting: pyramidalcellHost 47  is connecting: pyramidalcells to ca3cells.
+Host 47  is connecting: pvbasketcells to ca3cells.
+Host 47  is connecting: ca3cells to ca3cells.
+Host 47  connected cells.
+ connected cells.
+s.
+Host 88  is connecting: pvbasketcells to ca3cells.
+Host 88  is connecting: ca3cells to ca3cells.
+Host 88  connected cells.
+pvbasketcells.
+Host 153  is connecting: ca3cells to pvbasketcells.
+Host 153  is connecting: pyramidalcells to ca3cells.
+Host 153  is connecting: pvbasketcells to ca3cells.
+Host 153  is connecting: ca3cells to ca3cell
+Host 48  is connecting: pyramidalcells to pyramidalcells.
+Host 48  is connecting: pvbasketcells to pyramidalcells.
+Host 48  is connecting: ca3cells to pyramidalcells.
+Host 48  is connecting: pyramidalcells to pvbasketcells.
+Host 48  is connecting: pvbasketcells to pvbasketcells.
+Host 48  is connecting: ca3cells to pvbasketcells.
+181  is connecting: ca3cells to pvbasketcells.
+Host 181  is connecting: pyramidalcells to ca3cells.
+Host Host 89  is connecting: pyramidalcells to ca3cells.
+Host 89  is connecting: pvbasketcells to ca3cells.
+Host 89  is connecting: ca3cells to ca3cells.
+121  is connecting: pyramidalcells to ca3cells.
+Host 121  is connecting: pvbasketcells to ca3cells.
+Host 121  is connecting: ca3cells to ca3cells.
+Host 121  connected cells.
+s to pyramidalcells.
+Host 31 Host 53  is connecting: pvbasketcells to ca3cells.
+Host 53  is connecting: ca3cells to ca3cells.
+Host 53  connected cells.
+Host 194  is connecting: pyramidalcells to pyramidalcells.
+Host 194  is connecting: pvbasketcells to pyramidalcells.
+Host 194  is connecting: ca3cells to pyramidalcells.Host 91  is connecting: pyramidalcells to ca3cells.
+Host 91  is connecting: pvbasketcells to ca3cells.
+Host 91  is connecting: ca3cells to ca3cells.
+Host 91  connected cells.
+Host 131  is connecting: ca3cells to ca3cells.
+Host 131  connected cells.
+Host 1 Host 58  is connecting: pyramidalcells to pyramidalcells.
+Host 58  is connecting: pvbasketcells to pyramidalcells.
+Host 58  is connecting: ca3cells to pyramidalcells.
+Host 58  is connecting: pyramidalcells to pvbasketcells.
+Host 58  is connecting: pvbasketcells to pvbasketcells.
+Host 58  is connecting: ca3cells to pvbasketcells.
+Host 58  is connecting: Host 160  is connecting: pyramidalcells to pyramidalcells.
+Host 160  is connecting: pvbasketcells to pyramidalcell105  is connecting: ca3cells to ca3cells.
+Host 105  connected cells.
+Host 134  is connecting: pyramidalcells to pyramidalcells.
+Host 134  is connecting: pvbasketcells to pyramidalcells.
+Host 134  is connecting: pvbasketcells to pyramidalcells.
+64  is connecting: pyramidalcells to pvbasketcells.
+Host 64  is connecting: pvbasketcells to pvbasketcells.
+Host 64  is connecting: ca3cells to pvbasketcells.
+Host 64  is connecting: pyramidalcells to ca3cells.
+s to pyramidalcells.
+Host 163  is connecting: pyramidalcells to pvbasketcells.
+Host 163 Host 89  connected cells.
+Host 137  is connecting: pvbasketcells to pvbasketcells.
+Host 137  is connecting: ca3cells to pvbasketcells.
+Host 137  is connecting: pyramidalcells to ca3cells.
+Host 137  is connecting:  is connecting: pyramidalcells to ca3cells.
+Host ca3cells.
+Host 68  is connecting: ca3cells to ca3cells.
+Host 68  connected cells.
+ is connecting: ca3cells to pyramidalcells.
+Host 164  is connecting: pyramidalcells to pvbasketcells.
+Host 92  is connecting: pyramidalcells to pyramidalcells.
+Host 92  is connecting: pvbasketcells to pyramidalcells.
+Host 138  connected cells.
+Host 31  is connecting: ca3cells to pyramidalcells.Host 73  is connecting: pyramidalcells to pyramidalcells.
+Host 73  is connecting: pvbasketcells to pyramidalcells.
+Host 73  is connecting: ca3cells to pyramidalcells.
+Host 73  is connecting: 168  is connecting: ca3cells to pyramidalcells.
+Host 168  is connecting: pyramidalcells to pvbasketcells.Host 118  is connecting: pyramidalcells to pyramidalcells.
+Host 118  is connecting: pvbasketcells to  is connecting: ca3cells to ca3cells.
+Host 152  connected cells.
+1  is connecting: pvbasketcells to ca3cells.
+Host Host 77  is connecting: pyramidalcells to pyramidalcells.
+Host 77  is connecting: pvbasketcells to pyramidalcells.
+Host 77  is connecting: ca3cells to pyramidalcells.
+Host 77  is connecting: pyramidalcells to Host 171  is connecting: pyramidalcells to pyramidalcells.
+92  is connecting: ca3cells to pyramidalcells.
+Host 92  is connecting: pyramidalcells to pvbasketcells.
+Host 153  connected cells.
+
+ is connecting: ca3cells to pvbasketcells.
+Host 45  is connecting: pyramidalcells to ca3cells.
+Host 45  is connecting: pvbasketcells to ca3cells.
+Host 45  is connecting: ca3cell181  is connecting: pvbasketcells to ca3cells.
+Host 181  is connecting: ca3cells to ca3cells.
+Host pyramidalcells.
+Host 118  is connecting: ca3cells to pyramidalcells.
+Host 118  is connecting:  is connecting: ca3cells to pyramidalcells.
+Host 134  is connecting: pyramidalcells to pvbasketcells.
+Host 1  is connecting: ca3cells to ca3cells.
+Host 46  is connecting: pvbasketcells to ca3cells.
+Host 46  is connecting: ca3cells to ca3cells.
+Host 46  connected cells.
+
+Host 194  is connecting: pyramidalcells to pvbasketcells.
+Host s.
+Host 92  is connecting: pvbasketcells to pvbasketcells.
+Host pvbasketcells to ca3cells.
+Host 137  is connecting: ca3cells to ca3cells.
+Host 137  connected cells.
+Host 31  is connecting: pyramidalcells to pvbasketcells.
+Host 48  is connecting: pyramidalcells to ca3cells.
+Host 48  is connecting: pvbasketcells to ca3cells.
+Host 48  is connecting: ca3cells to ca3cells.
+Host 48  connected cells.
+s.
+Host 160  is connecting: ca3cells to pyramidalcells.
+Host pyramidalcells to pvbasketcells.
+Host 118  is connecting: pvbasketcells to pvbasketcells.
+134  is connecting: pvbasketcells to pvbasketcells.
+Host 1  connected cells.
+pyramidalcells to ca3cells.
+Host 58  is connecting: pvbasketcells to ca3cells.
+Host 58  is connecting: ca3cells to ca3cells.
+Host 58  connected cells.
+ is connecting: pvbasketcells to pvbasketcells.
+Host 163  is connecting: ca3cells to pvbasketcells.
+92  is connecting: ca3cells to pvbasketcells.
+Host 92 134  is connecting: ca3cells to pvbasketcells.
+Host 31  is connecting: pvbasketcells to Host 64  is connecting: pvbasketcells to ca3cells.
+Host 64  is connecting: ca3cells to ca3cells.
+Host 164  is connecting: pvbasketcells to pvbasketcells.
+Host 164  is connecting: ca3cells to pvbasketcells.
+Host 118  is connecting: ca3cells to pvbasketcells.
+Host 134  is connecting: pvbasketcells.
+Host 31  is connecting: pyramidalcells to pvbasketcells.
+Host 73  is connecting: pvbasketcells to pvbasketcells.
+
+Host 168  is connecting: pvbasketcells to pvbasketcells.
+Host 168  is connecting: ca3cells to pvbasketcell is connecting: pyramidalcells to ca3cells.
+Host 92  is connecting: pvbasketcellpyramidalcells to ca3cells.
+Host ca3cells to pvbasketcells.
+pvbasketcells.
+Host 77  is connecting: pvbasketcells to pvbasketcells.
+Host Host 171  is connecting: pvbasketcells to pyramidalcells.
+Host 171  is connecting: ca3cells to pyramidalcells.
+Host 118  is connecting: pyramidalcells to ca3cells.
+134  is connecting: pvbasketcells to ca3cells.
+Host 31  is connecting: pyramidalcells to ca3cells to ca3cells.
+Host 45  connected cells.
+181  connected cells.
+s to ca3cells.
+Host 92  is connecting: ca3cells to ca3cells.
+Host Host 134  is connecting: ca3cells to ca3cells.
+s.
+Host 31  is connecting: pvbasketcellHost 64  connected cells.
+Host 184  is connecting: pyramidalcells to pyramidalcells.
+Host 184  is connecting: pvbasketcells to pyramidalcells.
+Host 110  is connecting: pyramidalcells to pyramidalcells.
+Host 134  connected cells.
+s to ca3cells.
+Host Host 73  is connecting: ca3cells to pvbasketcells.
+194  is connecting: pvbasketcells to pvbasketcells.
+Host 194  is connecting: ca3cells to pvbasketcells.
+Host Host 118  is connecting: pvbasketcells to ca3cells.
+Host 118  is connecting: ca3cells to Host 145  is connecting: pyramidalcells to pyramidalcells.
+Host 145  is connecting: pvbasketcells to 31  is connecting: ca3cells to ca3cells.
+Host 77  is connecting: ca3cells to pvbasketcells.
+Host 160  is connecting: pyramidalcells to pvbasketcells.
+Host 160  is connecting: pvbasketcells to pvbasketcells.
+Host 92  connected cells.
+pyramidalcells.
+Host 145  is connecting: ca3cells to pyramidalcells.
+31  connected cells.
+Host 56  is connecting: pyramidalcells to pyramidalcells.
+Host Host 163  is connecting: pyramidalcells to ca3cells.
+Host 163  is connecting: pvbasketcells to ca3cells.
+Host 110  is connecting: pvbasketcells to pyramidalcells.
+Host Host 145  is connecting: pyramidalcells to pvbasketcells.
+Host 4  is connecting: pyramidalcells to pyramidalcells.
+Host 4  is connecting: pvbasketcells to pyramidalcells.
+Host 73  is connecting: pyramidalcells to ca3cells.
+Host 164  is connecting: pyramidalcells to ca3cells.
+Host 164  is connecting: pvbasketcells to ca3cells.ca3cells.
+Host 118  connected cells.
+Host 145  is connecting: pvbasketcells to pvbasketcells.Host 4  is connecting: ca3cells to pyramidalcells.
+77  is connecting: pyramidalcells to ca3cells.
+Host Host 167  is connecting: pyramidalcells to pyramidalcells.
+Host 167  is connecting: pvbasketcells to pyramidalcells.
+Host 110  is connecting: ca3cells to pyramidalcells.
+Host 
+Host 145  is connecting: Host 4  is connecting: pyramidalcells to pvbasketcell56  is connecting: pvbasketcells to pyramidalcells.
+Host 56  is connecting: ca3cells to pyramidalcells.
+s.
+Host 168  is connecting: pyramidalcells to ca3cells.
+Host 168  is connecting: pvbasketcells to ca3cellHost 116  is connecting: pyramidalcells to pyramidalcells.
+Host 116  is connecting: pvbasketcells to pyramidalcells.
+ca3cells to pvbasketcells.
+s.
+Host 4 Host 73  is connecting: pvbasketcells to ca3cells.
+Host 73  is connecting: ca3cells to ca3cells.Host 171  is connecting: pyramidalcells to pvbasketcells.
+Host 171  is connecting: pvbasketcellHost 99  is connecting: pyramidalcells to pyramidalcells.
+Host Host 145  is connecting: pyramidalcells to ca3cells.
+ is connecting: pvbasketcells to pvbasketcells.
+77  is connecting: pvbasketcells to ca3cells.
+Host 77  is connecting: ca3cells to ca3cells.
+Host Host 184  is connecting: ca3cells to pyramidalcells.
+Host 184  is connecting: pyramidalcells to pvbasketcellHost 107  is connecting: pyramidalcells to pyramidalcells.
+Host 107  is connecting: pvbasketcells to pyramidalcellHost 145  is connecting: pvbasketcells to ca3cellHost 4  is connecting: ca3cells to pvbasketcellHost 43  is connecting: pyramidalcell194  is connecting: pyramidalcells to ca3cells.
+Host 194  is connecting: pvbasketcells to ca3cells.
+Host Host 109  is connecting: pyramidalcells to pyramidalcells.
+Host 109 s.
+Host 145  is connecting: s.
+Host 56  is connecting: pyramidalcells to pvbasketcells.
+Host 56  is connecting: pvbasketcells to pvbasketcells.
+160  is connecting: ca3cells to pvbasketcells.
+Host 160  is connecting: pyramidalcells to ca3cells.
+Host 110  is connecting: pyramidalcells to pvbasketcells.
+Host 110  is connecting: pvbasketcells to pvbasketcells.
+Host 110  is connecting: ca3cells to pvbasketcells.
+ca3cells to ca3cells.
+Host 145 Host 4  is connecting: pyramidalcells to ca3cell
+Host 73  connected cells.
+Host 163  is connecting: ca3cells to ca3cells.
+Host 163  connected cells.
+Host 115  is connecting: pyramidalcells to pyramidalcells.
+Host 115  is connecting: pvbasketcells to pyramidalcells.
+Host 115  connected cells.
+s.
+Host 4 77  connected cells.
+
+Host 164  is connecting: ca3cells to ca3cells.
+Host 164  connected cells.
+Host 116  is connecting: ca3cells to pyramidalcells.
+Host 116  is connecting: pyramidalcells to pvbasketcellHost 130  is connecting: pyramidalcells to pyramidalcell is connecting: pvbasketcells to ca3cells.
+s to pyramidalcells.
+Host 43  is connecting: pvbasketcells to pyramidalcells.
+167  is connecting: ca3cells to pyramidalcells.
+Host 167  is connecting: pyramidalcells to pvbasketcells.
+Host 80  is connecting: pyramidalcells to pyramidalcells.
+Host s.
+Host 130  is connecting: pvbasketcells to Host 4  is connecting: ca3cells to ca3cellHost 56  is connecting: ca3cells to pvbasketcells.
+s.
+Host 168  is connecting: ca3cells to ca3cells.
+Host 168  connected cells.
+Host 95  is connecting: pyramidalcells to pyramidalcells.
+Host 95  is connecting: pvbasketcells to pyramidalcells.pyramidalcells.
+Host 130 s.
+Host 4  connected cells.
+Host 43  is connecting: ca3cells to pyramidalcells.Host 169  is connecting: pyramidalcells to pyramidalcells.
+Host 169  is connecting: pvbasketcells to pyramidalcells.
+Host 169  is connecting: ca3cells to 99  is connecting: pvbasketcells to pyramidalcells.
+Host 99  is connecting: ca3cells to pyramidalcells.
+Host 99  is connecting: ca3cells to pyramidalcells.
+Host Host 56  is connecting: pyramidalcells to ca3cells.
+Host 56  is connecting: pvbasketcells to ca3cells.s to pvbasketcells.
+Host 171  is connecting: ca3cells to pvbasketcells.
+Host 171  is connecting: pyramidalcells to s.
+Host 107  is connecting: ca3cells to pyramidalcells.
+Host 107  is connecting: pyramidalcells to pvbasketcells.
+Host 130  is connecting: pyramidalcells to pvbasketcell6  is connecting: pyramidalcells to pyramidalcell
+Host 43  is connecting: pyramidalcells to pvbasketcells.
+s.
+Host 184  is connecting: pvbasketcells to pvbasketcells.
+Host 184  is connecting: ca3cells to pvbasketcells.
+ is connecting: pvbasketcells to pyramidalcells.
+Host 109  is connecting: ca3cells to pyramidalcells.
+Host 109  is connecting: pyramidalcells to Host 155  is connecting: pyramidalcells to pyramidalcells.
+Host 
+Host 56  is connecting: ca3cells to ca3cells.
+Host Host 187  is connecting: pyramidalcells to pyramidalcells.
+Host 187  is connecting: pvbasketcells to pyramidalcells.
+Host 187  is connecting: ca3cells to pyramidalcells.
+Host 110  is connecting: pyramidalcells to ca3cells.
+Host 110  is connecting: pvbasketcells to ca3cells.
+Host 110  is connecting: ca3cells.
+Host 130  is connecting: pvbasketcells to 6  is connecting: pvbasketcells to pyramidalcells.Host 43  is connecting: pvbasketcells to pvbasketcells.
+Host 43 194  is connecting: ca3cells to ca3cells.
+Host 194  connected cells.
+ is connecting: ca3cells to pyramidalcells.
+Host 115  is connecting: pyramidalcells to pvbasketcells.
+Host 115  is connecting: pvbasketcells.
+Host 155  is connecting: pvbasketcells to pyramidalcell
+Host 6 56  connected cells.
+160  is connecting: pvbasketcells to ca3cells.
+Host 160  is connecting: ca3cells to ca3cells.
+Host 160  connected cells.
+s.
+Host 116  is connecting: pvbasketcells to pvbasketcells.
+Host 116  is connecting: ca3cells to pvbasketcells.
+pvbasketcells.
+Host 130  is connecting:  is connecting: ca3cells to pyramidalcells.
+ is connecting: ca3cells to pvbasketcells.
+Host Host 167  is connecting: pvbasketcells to pvbasketcells.
+Host 167  is connecting: ca3cells to pvbasketcells.
+80  is connecting: pvbasketcells to pyramidalcells.
+Host 80  is connecting: ca3cells to pyramidalcells.
+s.
+Host 155  is connecting: ca3cells to pyramidalcellHost 30  is connecting: Host 67  is connecting: pyramidalcells to pyramidalcells.
+pyramidalcells.
+Host 169  is connecting: pyramidalcells to pvbasketcells.
+Host Host 81 ca3cells to pvbasketcells.
+Host 6 43  is connecting: pyramidalcells to ca3cells.
+Host ca3cells.
+Host 171  is connecting: pvbasketcells to ca3cells.
+Host 171  is connecting: ca3cells to ca3cell
+Host 95  is connecting: ca3cells to pyramidalcells.
+s.
+pyramidalcells to pyramidalcells.
+Host Host 67  is connecting: pvbasketcells to pyramidalcells.
+Host 184  is connecting: pyramidalcells to ca3cells.
+Host 184  is connecting: pvbasketcells to ca3cells.
+ is connecting: pyramidalcells to pvbasketcells.
+Host 99  is connecting: pvbasketcells to pvbasketcells.
+Host 99  is connecting: ca3cells to pvbasketcells.
+Host 130  is connecting: pyramidalcells to ca3cells. is connecting: pyramidalcells to pvbasketcells.
+43  is connecting: pvbasketcells to ca3cells.
+Host Host 187  is connecting: pyramidalcells to pvbasketcells.
+Host 187  is connecting: Host 107  is connecting: pvbasketcells to pvbasketcells.
+Host 107  is connecting: ca3cells to pvbasketcells.
+Host 107  is connecting: Host 151  is connecting: 30  is connecting: pvbasketcells to pyramidalcells.
+Host 67  is connecting: ca3cells to pyramidalcells.
+Host 190  is connecting: pyramidalcells to pyramidalcells.
+Host 190  is connecting: pvbasketcells to pyramidalcells.
+Host 190  is connecting: ca3cells to pyramidalcells.pvbasketcells.
+Host 109  is connecting: pvbasketcells to pvbasketcells.
+Host 109  is connecting: ca3cells to pvbasketcells.
+Host 155  is connecting: pyramidalcells to pvbasketcells.
+Host Host 6  is connecting: pvbasketcells to pvbasketcells.
+43  is connecting: ca3cells to ca3cells.
+Host 43 Host 167  is connecting: pyramidalcells to ca3cells.
+Host 167  is connecting: pvbasketcells to ca3cells.s to ca3cells.
+Host 110  connected cells.
+
+Host 130  is connecting: pvbasketcells to ca3cellHost 30  is connecting: ca3cells to pyramidalcells.
+Host 63  is connecting: pyramidalcells to pyramidalcells.
+169  is connecting: pvbasketcells to pvbasketcells.
+Host 169  is connecting: ca3cells to pvbasketcells.
+Host 114  is connecting: pyramidalcells to pyramidalcells.
+Host 114  is connecting: pvbasketcells to pyramidalcells.
+Host 114  is connecting: ca3cellpyramidalcells to pyramidalcells.
+Host 151  is connecting: Host 6  is connecting: ca3cell connected cells.
+s.
+Host 171  connected cells.
+s to pvbasketcells.
+Host 115  is connecting: ca3cells to pvbasketcells.
+Host 115  is connecting: pyramidalcells to ca3cells.
+Host 115 155  is connecting: pvbasketcells to pvbasketcells.
+Host 155  is connecting: ca3cells to s to pvbasketcells.
+Host 63  is connecting: pvbasketcells to pyramidalcells.
+Host 63 Host 184  is connecting: ca3cells to ca3cells.
+Host 184  connected cells.
+Host 116  is connecting: pyramidalcells to ca3cells.
+Host 116  is connecting: pvbasketcells to ca3cells.
+Host 116  is connecting: ca3cells to ca3cells.
+Host s.
+Host 130  is connecting: ca3cells to ca3cellHost 30  is connecting: pyramidalcells to pvbasketcells.
+Host 67  is connecting: pyramidalcells to pvbasketcells.
+Host 67  is connecting: pvbasketcells to pvbasketcells.
+Host 67  is connecting: ca3cells to pvbasketcells.pvbasketcells to pvbasketcells.
+Host 187  is connecting: ca3cells to pvbasketcells.
+Host 80  is connecting: pyramidalcells to pvbasketcells.
+Host 80  is connecting: pvbasketcells to pvbasketcellpvbasketcells to pyramidalcells.
+Host 151 Host 6  is connecting: pyramidalcells to ca3cell is connecting: ca3cells to pyramidalcells.
+
+Host 190  is connecting: pyramidalcells to pvbasketcells.
+Host  is connecting: pyramidalcells to pyramidalcells.
+Host 81  is connecting: pvbasketcells to pyramidalcells.
+Host 81  is connecting: ca3cells to pyramidalcells.
+pvbasketcells.
+Host 155  is connecting: pyramidalcells to Host 30  is connecting: pvbasketcells to pvbasketcell
+Host 67  is connecting: pyramidalcells to ca3cell
+Host 167  is connecting: ca3cells to ca3cells.
+Host 167  connected cells.
+Host 95  is connecting: pyramidalcells to pvbasketcells.
+Host 95  is connecting: pvbasketcells to pvbasketcells.
+s.
+Host 130  connected cells.
+s.
+Host 6  is connecting: Host 63  is connecting: pyramidalcells to pvbasketcells.
+Host 169  is connecting: pyramidalcells to ca3cells.
+Host 169  is connecting: pvbasketcellHost 98  is connecting: pyramidalcells to pyramidalcells.
+Host 98  is connecting: ca3cells to pyramidalcells.
+s.
+Host 30  is connecting: ca3cells.
+Host 67  is connecting: pvbasketcells to ca3cells.
+Host 187  is connecting: pyramidalcells to ca3cells.
+Host 187  is connecting: pvbasketcellHost 99  is connecting: pyramidalcells to ca3cells.
+Host 99  is connecting: pvbasketcells to ca3cells.
+Host 99  is connecting: ca3cells to ca3cells.
+Host 99 ca3cells.
+Host 155  is connecting: pvbasketcells to ca3cells.
+pvbasketcells to ca3cells.
+Host Host 63  is connecting: pvbasketcells to 190  is connecting: pvbasketcells to pvbasketcells.
+Host 190  is connecting: ca3cells to pvbasketcells.Host 104  is connecting: pyramidalcells to pyramidalcells.
+Host 104  is connecting: pvbasketcells to pyramidalcells.
+Host 104  is connecting: ca3cells to pyramidalcells.
+Host 104  is connecting: Host 151  is connecting: pyramidalcells to pvbasketcells.
+s to pvbasketcells.
+Host Host 67  is connecting: ca3cells to ca3cells.
+Host 67 s to ca3cells.
+Host 169  is connecting: ca3cells to ca3cellpyramidalcells to ca3cells.
+Host 107  is connecting: pvbasketcells to ca3cells.
+Host 107  is connecting: ca3cells to ca3cells.
+Host 107  connected cells.
+Host 155  is connecting: ca3cells to ca3cells.
+Host 6  is connecting: ca3cells to ca3cells.
+Host pvbasketcells.
+Host 63  is connecting: ca3cells to pvbasketcells.
+s to ca3cells.
+Host 187  is connecting: ca3cells to ca3cellHost 109  is connecting: pyramidalcells to ca3cells.
+Host 109  is connecting: pvbasketcells to ca3cells.
+Host 109  is connecting: ca3cells to ca3cells.
+Host 109  connected cells.
+Host 151  is connecting: pvbasketcells to pvbasketcell30  is connecting: pyramidalcells to ca3cells.
+Host  connected cells.
+
+Host 190  is connecting: pyramidalcells to ca3cells.s to pyramidalcells.
+Host 114  is connecting: pyramidalcells to pvbasketcells.
+Host 114  is connecting: pvbasketcells to pvbasketcells.
+Host 155  connected cells.
+6  connected cells.
+Host 63  is connecting: pyramidalcells to ca3cells.
+Host 192  is connecting: pyramidalcells to pyramidalcells.
+ is connecting: pvbasketcells to ca3cells.
+Host 115  is connecting: ca3cells to ca3cells.
+Host 115  connected cells.
+s.
+Host 151  is connecting: ca3cells to pvbasketcell30  is connecting: pvbasketcells to ca3cells.
+Host Host 63  is connecting: pvbasketcells to ca3cells.
+s.
+Host 169  connected cells.
+116  connected cells.
+s.
+Host 151 30  is connecting: ca3cells to ca3cells.
+Host 63  is connecting: ca3cells to ca3cells.
+Host 63  connected cells.
+s.
+Host 187  connected cells.
+s.
+Host 80  is connecting: ca3cells to pvbasketcells.
+Host 80  is connecting: pyramidalcells to ca3cells.
+Host Host 30  connected cells.
+Host 61  is connecting: pyramidalcells to pyramidalcells.
+Host 61  is connecting: pvbasketcell
+Host 190  is connecting: pvbasketcells to ca3cells.
+Host Host 81  is connecting: pyramidalcells to pvbasketcells.
+Host 81  is connecting: pvbasketcells to pvbasketcells.
+Host 81 151  is connecting: pvbasketcells to ca3cells.
+Host 33  is connecting: pyramidalcells to pyramidalcells.
+Host 33  is connecting: pvbasketcells to pyramidalcells.
+s to pyramidalcells.
+Host 61  is connecting: Host 192  is connecting: pvbasketcells to pyramidalcells.
+Host 192 Host 95  is connecting: ca3cells to pvbasketcells.
+Host 95  is connecting: pyramidalcells to ca3cells.
+Host 151  is connecting: ca3cells to ca3cells.
+Host 33  is connecting: ca3cells to pyramidalcells.
+ca3cells to pyramidalcells.
+190  is connecting: ca3cells to ca3cells.
+Host 190  connected cells. is connecting: pvbasketcells to pyramidalcells.
+Host 98  is connecting: ca3cells to pyramidalcells.
+Host 151  connected cells.
+Host 33  is connecting: pyramidalcells to pvbasketcells.
+Host Host 61  is connecting: ca3cells to pyramidalcells.
+Host  connected cells.
+Host 150  is connecting: pyramidalcells to pyramidalcells.
+33  is connecting: pvbasketcells to pvbasketcells.
+Host 33  is connecting: ca3cell is connecting: pyramidalcells to pvbasketcells.
+Host 165  is connecting: pyramidalcells to pyramidalcells.
+pyramidalcells to pvbasketcells.
+Host 104  is connecting: pvbasketcells to pvbasketcells.
+Host 104  is connecting: ca3cells to pvbasketcells.
+Host 104  is connecting: pyramidalcells to ca3cells.
+Host 150  is connecting: pvbasketcells to pyramidalcells.
+s to pvbasketcells.
+Host 33  is connecting: Host 49  is connecting: pyramidalcells to pyramidalcells.
+
+114  is connecting: ca3cells to pvbasketcells.
+Host 114  is connecting: pyramidalcells to ca3cells.
+Host 114  is connecting: pvbasketcells to ca3cells.
+Host 114  is connecting: ca3cells to ca3cells.
+Host 150  is connecting: ca3cells to pyramidalcells.pyramidalcells to ca3cells.
+Host 33  is connecting: pvbasketcellHost 61  is connecting: pvbasketcells to pvbasketcells.
+192  is connecting: pyramidalcells to pvbasketcells.
+Host 192  is connecting: pyramidalcells to ca3cells.
+Host 80  is connecting: pvbasketcells to ca3cells.
+Host 80  is connecting: ca3cells to ca3cells.
+
+Host s to ca3cells.
+Host 33  is connecting: ca3cells to ca3cellHost 66  is connecting: pyramidalcells to pyramidalcells.
+Host 165  is connecting: pvbasketcells to pyramidalcells.
+Host  is connecting: ca3cells to pvbasketcells.
+Host 81  is connecting: pyramidalcells to ca3cells.
+Host 81  is connecting: pvbasketcells to ca3cells.
+Host 81  is connecting: ca3cells to 150  is connecting: pyramidalcells to pvbasketcells.
+s.
+Host 33  connected cells.
+Host 49  is connecting: pvbasketcells to pyramidalcells.
+Host  is connecting: pvbasketcells to pvbasketcells.
+Host 192  is connecting: ca3cellHost 95  is connecting: pvbasketcells to ca3cells.
+Host 95  is connecting: ca3cells to ca3cells.
+Host 95  connected cells.
+Host 150  is connecting: pvbasketcells to pvbasketcells.
+Host 61  is connecting: ca3cells to pvbasketcells.165  is connecting: ca3cells to pyramidalcells.
+Host 98  is connecting: pyramidalcells to pvbasketcells.
+Host 98  is connecting: pvbasketcells to pvbasketcells.
+Host 98  is connecting: Host 150  is connecting: ca3cells to pvbasketcells.
+Host 66  is connecting: pvbasketcells to pyramidalcells.
+s to pvbasketcells.
+Host 192 Host 104  is connecting: pvbasketcells to ca3cells.
+Host 104  is connecting: ca3cells to ca3cells.
+Host 104 Host 150  is connecting: pyramidalcells to ca3cells.
+49  is connecting: ca3cells to pyramidalcells.
+Host 165  is connecting: pyramidalcells to pvbasketcells.
+Host Host 114  connected cells.
+Host 150  is connecting: pvbasketcells to ca3cells.
+
+Host 61  is connecting: pyramidalcells to ca3cells.
+Host 192  is connecting: Host 80  connected cells.
+Host 150  is connecting: ca3cells to ca3cells.
+Host 66  is connecting: ca3cells to pyramidalcell165  is connecting: pvbasketcells to pvbasketcells.
+Host ca3cells.
+Host 81  connected cells.
+Host 150  connected cells.
+Host 49  is connecting: pyramidalcells to pvbasketcells.
+pvbasketcells to ca3cells.
+Host 192  is connecting: ca3cellHost 84  is connecting: pyramidalcells to pyramidalcells.
+Host 84  is connecting: pyramidalcells to ca3cells.
+Host 165  is connecting: ca3cells to pvbasketcells.
+Host ca3cells to pvbasketcells.
+Host 98  is connecting: pyramidalcells.
+Host s to ca3cells.
+Host 192  connected cells.
+ connected cells.
+Host 49  is connecting: pvbasketcells to pvbasketcells.
+Host 165  is connecting: pyramidalcells to ca3cells.
+Host  is connecting: pvbasketcells to pyramidalcells.
+Host 61  is connecting: pvbasketcells to ca3cells.
+165  is connecting: pvbasketcells to ca3cells.
+Host s to ca3cells.
+Host 98  is connecting: pvbasketcell66  is connecting: pyramidalcells to pvbasketcells.
+165  is connecting: ca3cells to ca3cells.
+Host 84  is connecting: ca3cells to pyramidalcells.
+Host 79  is connecting: pyramidalcells to pyramidalcells.
+Host 165  connected cells.
+s to ca3cells.
+Host 98  is connecting: ca3cells to ca3cells.
+Host 49  is connecting: ca3cells to pvbasketcells.
+Host 49 Host 172  is connecting: pyramidalcells to pyramidalcells.
+Host 172  is connecting: pvbasketcellHost 113  is connecting: pyramidalcells to pyramidalcells.
+Host 52  is connecting: pyramidalcells to pyramidalcells.
+Host 52  is connecting: Host 177  is connecting: pyramidalcells to pyramidalcells.
+Host 177  is connecting: pvbasketcells to pyramidalcells.
+Host 84  is connecting: pyramidalcells to pvbasketcells.
+Host Host 61  is connecting: ca3cells to ca3cells.
+Host s to pyramidalcells.
+Host 172  is connecting: ca3cells to 98  connected cells.
+Host 66  is connecting: pvbasketcells to pvbasketcells.
+Host Host 177  is connecting: ca3cells to pyramidalcells.Host 113  is connecting: pvbasketcells to pyramidalcell79  is connecting: pvbasketcells to pyramidalcells.
+Host pyramidalcells.
+84  is connecting: pvbasketcells to pvbasketcells.
+Host  is connecting: pyramidalcells to ca3cells.
+Host 49  is connecting: pvbasketcells to ca3cells.
+
+Host s.
+Host 113 pvbasketcells to pyramidalcells.
+Host 52  is connecting: ca3cells to pyramidalcells.
+Host 172  is connecting: pyramidalcells to pvbasketcells.84  is connecting: ca3cells to pvbasketcells.
+61  connected cells.
+177  is connecting: pyramidalcells to pvbasketcells.
+Host 111  is connecting: pyramidalcells to pyramidalcells.
+Host 111  is connecting: pvbasketcells to 66  is connecting: ca3cells to pvbasketcells.
+
+Host 172  is connecting: pvbasketcell is connecting: ca3cells to pyramidalcells.
+Host 79  is connecting: ca3cells to pyramidalcells.
+Host 177  is connecting: pvbasketcells to Host 84  is connecting: pyramidalcells to ca3cells.
+Host 84 Host 49  is connecting: ca3cells to ca3cells.
+Host 49  connected cells.
+s to pvbasketcells.
+Host pyramidalcells.
+Host 111  is connecting: ca3cells to pyramidalcells.
+Host 52  is connecting: pyramidalcells to pvbasketcells.
+Host pvbasketcells.
+Host 177 113  is connecting: pyramidalcells to pvbasketcells.
+Host 113  is connecting: pvbasketcells to pvbasketcells.
+Host 113 Host 66  is connecting: pyramidalcells to ca3cells.
+Host 172  is connecting: ca3cells to pvbasketcells.
+ is connecting: pvbasketcells to ca3cells.
+Host 84  is connecting: ca3cells to ca3cells.
+Host Host 79  is connecting: pyramidalcells to pvbasketcells.
+ is connecting: ca3cells to pvbasketcells.
+Host 111  is connecting: pyramidalcells to pvbasketcells.
+Host 111  is connecting: pvbasketcells to pvbasketcells.
+52  is connecting: pvbasketcells to pvbasketcells.
+Host 52 Host 172  is connecting:  is connecting: ca3cells to pvbasketcells.
+66  is connecting: pvbasketcells to ca3cells.
+Host Host 177  is connecting: pyramidalcell84  connected cells.
+Host 79  is connecting: pvbasketcells to pvbasketcells.
+pyramidalcells to ca3cells.
+Host Host 111  is connecting: ca3cells to pvbasketcells.
+ is connecting: ca3cells to pvbasketcells.
+Host 52  is connecting: s to ca3cells.
+Host Host 113  is connecting: pyramidalcells to ca3cells.
+66  is connecting: ca3cells to ca3cells.
+Host 66 172  is connecting: pvbasketcells to ca3cells.
+Host 93  is connecting: pyramidalcells to Host 79  is connecting: ca3cells to pvbasketcells.177  is connecting: pvbasketcells to ca3cells.
+Host 111  is connecting: pyramidalcells to ca3cells.
+Host 111  is connecting: pvbasketcells to ca3cellpyramidalcells to ca3cells.
+Host 52  is connecting: pvbasketcells to ca3cells.
+Host 172  is connecting: Host 113  is connecting: pvbasketcells to ca3cells.
+Host  connected cells.
+Host 177  is connecting: ca3cells to pyramidalcells.
+Host 93  is connecting: pvbasketcell
+Host 79  is connecting: pyramidalcellca3cells to ca3cells.
+Host s.
+Host 111  is connecting: ca3cells to ca3cells.
+Host Host 52  is connecting: ca3cells to ca3cells.
+Host ca3cells.
+Host 177 113  is connecting: ca3cells to ca3cells.
+Host 113 s to ca3cells.
+Host 79  is connecting: pvbasketcell172  connected cells.
+s to pyramidalcells.
+Host 93  is connecting: 52  connected cells.
+ connected cells.
+111  connected cells.
+s to ca3cells.
+Host 79  is connecting: ca3cells to ca3cell connected cells.
+s.
+Host 79  connected cells.
+ca3cells to pyramidalcells.
+Host 93  is connecting: pyramidalcells to pvbasketcells.
+Host 93  is connecting: pvbasketcells to pvbasketcells.
+Host 93  is connecting: ca3cells to pvbasketcells.
+Host 93  is connecting: pyramidalcells to ca3cells.
+Host 93  is connecting: pvbasketcells to ca3cells.
+Host 93  is connecting: ca3cells to ca3cells.
+Host 93  connected cells.
+Host 83  is connecting: pyramidalcells to pyramidalcells.
+Host 83  is connecting: pvbasketcells to pyramidalcells.
+Host 83  is connecting: ca3cells to pyramidalcellHost 82  is connecting: pyramidalcells to pyramidalcells.
+s.
+Host Host 87  is connecting: pyramidalcells to pyramidalcells.
+Host Host 82  is connecting: pvbasketcells to pyramidalcells.83  is connecting: pyramidalcells to pvbasketcells.
+Host 87  is connecting: pvbasketcells to pyramidalcells.
+
+Host 82  is connecting: ca3cell83  is connecting: pvbasketcells to pvbasketcells.
+Host 87  is connecting: ca3cells to pyramidalcells.s to pyramidalcells.
+Host 83  is connecting: ca3cells to pvbasketcells.
+
+Host Host 82  is connecting: pyramidalcells to pvbasketcells.
+Host 83  is connecting: 87  is connecting: pyramidalcells to pvbasketcells.
+Host 97  is connecting: pyramidalcells to pyramidalcells.Host 117  is connecting: pyramidalcells to pyramidalcells.
+Host 82  is connecting: pvbasketcells to pvbasketcells.
+pyramidalcells to ca3cells.
+Host 83  is connecting: pvbasketcells to Host 87  is connecting: pvbasketcells to pvbasketcells.
+Host 
+Host 97  is connecting: pvbasketcells to pyramidalcells.
+Host 117  is connecting: pvbasketcells to pyramidalcells.
+Host 82  is connecting: ca3cells to pvbasketcells.
+ca3cells.
+Host 83  is connecting: ca3cells to ca3cells.
+87  is connecting: ca3cells to pvbasketcells.
+Host 97  is connecting: ca3cells to pyramidalcells.
+Host 117  is connecting: ca3cells to pyramidalcells.
+Host 82  is connecting: pyramidalcells to ca3cells.
+Host 83  connected cells.
+Host 87  is connecting: pyramidalcells to ca3cells.
+Host 82  is connecting: pvbasketcells to ca3cellHost 87  is connecting: pvbasketcells to ca3cells.
+Host 97  is connecting: pyramidalcells to pvbasketcells.
+Host Host 117  is connecting: pyramidalcells to pvbasketcells.
+Host 117 s.
+Host 82  is connecting: ca3cells to ca3cells.Host 87  is connecting: ca3cells to ca3cells.
+97  is connecting: pvbasketcells to pvbasketcells.
+Host 97  is connecting: pvbasketcells to pvbasketcells.
+Host 117  is connecting: ca3cell
+Host 82  connected cells.
+Host 87  connected cells.
+ is connecting: ca3cells to pvbasketcells.
+Host 97 s to pvbasketcells.
+Host 117  is connecting: pyramidalcell is connecting: pyramidalcells to ca3cells.
+Host 97  is connecting: pvbasketcells to s to ca3cells.
+Host 117  is connecting: pvbasketcells to ca3cells.
+Host 86  is connecting: pyramidalcells to pyramidalcells.ca3cells.
+Host 97  is connecting: ca3cells to ca3cellHost 117  is connecting: ca3cells to ca3cells.
+Host 86  is connecting: pvbasketcells to pyramidalcells.
+Host 97  connected cells.
+
+Host 117  connected cells.
+s.
+Host 86  is connecting: ca3cells to pyramidalcells.
+Host 86  is connecting: pyramidalcells to pvbasketcells.
+Host 86  is connecting: pvbasketcells to pvbasketcells.
+Host 86  is connecting: ca3cells to pvbasketcells.
+Host 86  is connecting: pyramidalcells to ca3cells.
+Host 86  is connecting: pvbasketcells to ca3cells.
+Host 86  is connecting: ca3cells to ca3cells.
+Host 86  connected cells.
+Host 0  is connecting: pyramidalcells to pyramidalcells.
+sh: topcmd.sh: No such file or directory
+Host 0  is connecting: pvbasketcells to pyramidalcells.
+sh: topcmd.sh: No such file or directory
+Host 0  is connecting: ca3cells to pyramidalcells.
+sh: topcmd.sh: No such file or directory
+Host 0  is connecting: pyramidalcells to pvbasketcells.
+Host 0  is connecting: pvbasketcells to pvbasketcells.
+Host 0  is connecting: ca3cells to pvbasketcells.
+Host 0  is connecting: pyramidalcells to ca3cells.
+Host 0  is connecting: pvbasketcells to ca3cells.
+Host 0  is connecting: ca3cells to ca3cells.
+Host 0  connected cells.
+
+TIME HOST 0: 2.15 seconds (connected cells)
+************
+
+host 160 online before 
+	25 
+
+host 1 online before 
+	23 
+
+host 40 online before 
+	24 
+
+host 162 online before 
+	25 
+
+host 80 online before 
+	24 
+
+host 120 online before 
+	25 
+
+host 2 online before 
+	23 
+
+host 41 online before 
+	24 
+
+host 163 online before 
+	25 
+
+host 81 online before 
+	24 
+
+host 121 online before 
+	25 
+
+host 3 online before 
+	23 
+
+host 42 online before 
+	24 
+
+host 164 online before 
+	25 
+
+host 82 online before 
+	24 
+
+host 122 online before 
+	25 
+
+host 4 online before 
+	23 
+
+host 43 online before 
+	24 
+
+host 165 online before 
+	25 
+
+host 83 online before 
+	24 
+
+host 123 online before 
+	25 
+
+host 5 online before 
+	23 
+
+host 44 online before 
+	24 
+
+host 166 online before 
+	25 
+
+host 84 online before 
+	24 
+
+host 124 online before 
+	25 
+
+host 6 online before 
+	23 
+
+host 45 online before 
+	24 
+
+host 167 online before 
+	25 
+
+host 85 online before 
+	24 
+
+host 125 online before 
+	25 
+
+host 10 online before 
+	24 
+
+host 46 online before 
+	24 
+
+host 168 online before 
+	25 
+
+host 86 online before 
+	24 
+
+host 126 online before 
+	25 
+
+host 11 online before 
+	24 
+
+host 47 online before 
+	24 
+
+host 169 online before 
+	25 
+
+host 88 online before 
+	24 
+
+host 127 online before 
+	25 
+
+host 12 online before 
+	24 
+
+host 48 online before 
+	24 
+
+host 170 online before 
+	25 
+
+host 89 online before 
+	24 
+
+host 128 online before 
+	25 
+
+host 13 online before 
+	24 
+
+host 49 online before 
+	24 
+
+host 171 online before 
+	25 
+
+host 90 online before 
+	24 
+
+host 129 online before 
+	25 
+
+host 15 online before 
+	24 
+
+host 50 online before 
+	24 
+
+host 172 online before 
+	25 
+
+host 91 online before 
+	24 
+
+host 130 online before 
+	25 
+
+host 16 online before 
+	24 
+
+host 51 online before 
+	24 
+
+host 173 online before 
+	25 
+
+host 93 online before 
+	24 
+
+host 131 online before 
+	25 
+
+host 17 online before 
+	24 
+
+host 52 online before 
+	24 
+
+host 174 online before 
+	25 
+
+host 94 online before 
+	24 
+
+host 132 online before 
+	25 
+
+host 18 online before 
+	24 
+
+host 53 online before 
+	24 
+
+host 175 online before 
+	25 
+
+host 95 online before 
+	24 
+
+host 133 online before 
+	25 
+
+host 19 online before 
+	24 
+
+host 54 online before 
+	24 
+
+host 176 online before 
+	25 
+
+host 96 online before 
+	24 
+
+host 134 online before 
+	25 
+
+host 20 online before 
+	24 
+
+host 55 online before 
+	24 
+
+host 177 online before 
+	25 
+
+host 98 online before 
+	24 
+
+host 135 online before 
+	25 
+
+host 21 online before 
+	24 
+
+host 56 online before 
+	24 
+
+host 178 online before 
+	25 
+
+host 99 online before 
+	24 
+
+host 136 online before 
+	25 
+
+host 22 online before 
+	24 
+
+host 57 online before 
+	24 
+
+host 180 online before 
+	25 
+
+host 100 online before 
+	25 
+
+host 137 online before 
+	25 
+
+host 23 online before 
+	24 
+
+host 58 online before 
+	24 
+
+host 181 online before 
+	25 
+
+host 101 online before 
+	25 
+
+host 138 online before 
+	25 
+
+host 24 online before 
+	24 
+
+host 59 online before 
+	24 
+
+host 182 online before 
+	25 
+
+host 103 online before 
+	25 
+
+host 139 online before 
+	25 
+
+host 25 online before 
+	24 
+
+host 60 online before 
+	24 
+
+host 184 online before 
+	25 
+
+host 104 online before 
+	25 
+
+host 140 online before 
+	25 
+
+host 27 online before 
+	24 
+
+host 61 online before 
+	24 
+
+host 185 online before 
+	25 
+
+host 105 online before 
+	25 
+
+host 141 online before 
+	25 
+
+host 28 online before 
+	24 
+
+host 62 online before 
+	24 
+
+host 186 online before 
+	25 
+
+host 106 online before 
+	25 
+
+host 142 online before 
+	25 
+
+host 30 online before 
+	24 
+
+host 64 online before 
+	24 
+
+host 187 online before 
+	25 
+
+host 107 online before 
+	25 
+
+host 143 online before 
+	25 
+
+host 31 online before 
+	24 
+
+host 65 online before 
+	24 
+
+host 188 online before 
+	25 
+
+host 108 online before 
+	25 
+
+host 144 online before 
+	25 
+
+host 32 online before 
+	24 
+
+host 66 online before 
+	24 
+
+host 189 online before 
+	25 
+
+host 109 online before 
+	25 
+
+host 145 online before 
+	25 
+
+host 33 online before 
+	24 
+
+host 68 online before 
+	24 
+
+host 190 online before 
+	25 
+
+host 110 online before 
+	25 
+
+host 146 online before 
+	25 
+
+host 34 online before 
+	24 
+
+host 70 online before 
+	24 
+
+host 191 online before 
+	25 
+
+host 112 online before 
+	25 
+
+host 147 online before 
+	25 
+
+host 35 online before 
+	24 
+
+host 71 online before 
+	24 
+
+host 192 online before 
+	25 
+
+host 113 online before 
+	25 
+
+host 148 online before 
+	25 
+
+host 36 online before 
+	24 
+
+host 72 online before 
+	24 
+
+host 193 online before 
+	25 
+
+host 114 online before 
+	25 
+
+host 149 online before 
+	25 
+
+host 37 online before 
+	24 
+
+host 73 online before 
+	24 
+
+host 194 online before 
+	25 
+
+host 115 online before 
+	25 
+
+host 150 online before 
+	25 
+
+host 39 online before 
+	24 
+
+host 74 online before 
+	24 
+
+host 195 online before 
+	25 
+
+host 116 online before 
+	25 
+
+host 151 online before 
+	25 
+
+host 0 online before 
+	23 
+
+host 75 online before 
+	24 
+
+host 196 online before 
+	25 
+
+host 117 online before 
+	25 
+
+host 152 online before 
+	25 
+
+host 7 online before 
+	23 
+
+host 76 online before 
+	24 
+
+host 197 online before 
+	25 
+
+host 118 online before 
+	25 
+
+host 153 online before 
+	25 
+
+host 8 online before 
+	23 
+
+host 77 online before 
+	24 
+
+host 198 online before 
+	25 
+
+host 119 online before 
+	25 
+
+host 154 online before 
+	25 
+
+host 9 online before 
+	23 
+
+host 78 online before 
+	24 
+
+host 199 online before 
+	25 
+
+host 87 online before 
+	24 
+
+host 155 online before 
+	25 
+
+host 14 online before 
+	24 
+
+host 79 online before 
+	24 
+
+host 161 online before 
+	25 
+
+host 92 online before 
+	24 
+
+host 156 online before 
+	25 
+
+host 26 online before 
+	24 
+
+host 63 online before 
+	24 
+
+host 179 online before 
+	25 
+
+host 97 online before 
+	24 
+
+host 157 online before 
+	25 
+
+host 29 online before 
+	24 
+
+host 67 online before 
+	24 
+
+host 183 online before 
+	25 
+
+host 102 online before 
+	25 
+
+host 158 online before 
+	25 
+
+host 38 online before 
+	24 
+
+host 69 online before 
+	24 
+
+host 111 online before 
+	25 
+
+host 159 online before 
+	25 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-490 
+-480 
+-310 
+-300 
+-290 
+-470 
+-460 
+-280 
+-270 
+-450 
+-440 
+-260 
+-250 -430 
+-420 
+
+-240 
+-230 -410 
+-400 
+
+-220 
+-390 
+-380 -210 
+-200 
+
+-370 
+-360 -190 
+-180 
+
+-350 
+-170 
+-160 
+-340 
+-330 
+-150 
+-140 
+-320 
+-310 
+-300 
+-290 -130 
+-120 
+-110 
+-100 
+
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-490 
+-200 
+-190 
+-180 -480 
+-470 
+-460 
+-170 
+-160 
+-450 
+
+-150 
+-140 -440 
+-430 -490 
+-480 
+-470 
+
+-130 
+-120 
+-420 
+-460 
+-450 
+-440 
+
+-110 
+-100 
+-410 
+-400 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-430 
+-420 
+-410 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-390 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-400 
+-390 
+-380 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-380 
+
+-370 
+-360 
+-370 
+-360 
+-350 
+-340 
+-330 
+-350 
+-320 
+-310 
+-340 
+-330 -300 
+-290 
+-280 
+-490 
+
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-240 
+-230 
+-220 
+-210 
+-200 
+-130 
+-120 
+-110 
+-100 
+-410 
+-400 
+-390 
+-380 
+-370 -490 
+-480 
+-470 
+-460 
+-190 
+-180 
+-170 
+-160 
+-360 
+-350 
+-450 
+-440 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-150 
+-140 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-340 
+-330 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-430 
+-420 
+-130 
+-120 
+-110 
+-320 
+-310 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 -410 
+-400 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-300 
+-290 
+
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-280 
+-270 
+-260 
+-250 
+-240 
+-320 
+-310 
+-300 
+-290 
+-280 
+-250 
+-240 
+-230 
+-220 
+-200 
+-190 
+-180 
+-170 -230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-270 
+-260 
+-210 
+-200 
+-190 
+-180 
+-170 
+
+-160 
+-150 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-250 
+-240 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 -140 
+-130 -100 
+-230 
+-220 
+
+
+-120 
+-110 -210 
+-200 
+
+-100 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-490 
+-480 
+-470 
+-460 
+-450 -380 
+-370 
+-360 
+
+-440 
+-430 
+-420 
+-410 
+-400 -350 
+-340 
+-330 
+-320 
+-390 
+-380 
+-370 
+-360 
+-350 
+
+-310 
+-300 
+-290 -340 
+-330 
+-320 
+-310 
+-300 
+-490 
+-480 
+-470 
+-460 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-490 
+-480 
+-470 
+-460 
+
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-450 
+-440 
+-430 
+-420 
+-410 
+-100 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-400 
+-390 
+-380 
+-370 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-490 
+-480 
+-470 
+-460 
+-280 
+-270 
+-260 
+-250 
+-240 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-490 
+-480 
+-470 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 -360 
+-350 
+-340 
+-330 
+-320 
+-310 -230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-110 
+-100 
+
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-400 
+-390 
+-380 
+-370 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-490 
+-480 
+-470 
+-460 
+-450 -110 
+-100 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 -110 
+-100 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-130 
+-120 
+-110 
+-100 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-150 
+-140 
+-130 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-120 
+-110 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-490 
+-480 
+-470 
+-460 
+-450 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 -430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-360 
+-350 
+-340 
+-330 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 -320 
+-310 
+-300 
+-290 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-280 
+-270 
+-260 
+-250 
+
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-160 
+-150 
+-140 
+-130 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-120 
+-110 
+-100 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 -260 
+-250 
+-240 
+-230 
+-220 
+-490 
+-480 
+-470 
+-460 
+-450 
+-340 
+-330 
+-320 
+-310 
+-300 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+
+-180 
+-170 
+-160 
+-150 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 -380 
+-370 
+-360 
+-350 
+-340 -290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+
+-330 
+-320 
+-310 
+-300 
+-140 
+-130 
+-120 
+-110 
+-100 
+-290 
+-280 
+-270 
+-260 
+-250 
+
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-240 
+-230 
+-220 
+-120 
+-110 
+-100 
+-210 
+-200 
+-190 
+-180 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 -420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+
+-100 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-490 
+-480 
+-470 -490 
+-480 
+-470 
+-460 
+-450 -240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+
+-460 
+-450 
+-440 
+-430 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+
+-360 
+-350 
+-340 
+-330 
+-320 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-430 
+-420 
+-410 
+-400 
+-410 
+-400 
+-390 
+-380 
+-370 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-310 
+-300 
+-290 
+-280 
+-270 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-390 
+-380 
+-370 
+-360 
+-350 
+-360 
+-350 
+-340 
+-330 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-340 
+-330 
+-320 
+-260 
+-250 
+-240 
+-230 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-310 
+-300 
+-320 
+-310 
+-300 
+-290 
+-280 -370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-290 
+-280 
+-270 
+-220 
+-210 
+-200 
+-190 -290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-260 
+-250 
+-240 
+
+-270 
+-260 
+-250 
+-240 
+
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 -230 
+-220 
+-210 
+
+-180 
+-170 
+-160 
+-150 -200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-200 
+-190 
+-180 
+-230 
+-220 
+-210 
+-200 
+
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+
+-140 
+-130 
+-120 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-110 
+-100 
+-190 
+-180 
+-170 
+-160 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-110 
+-100 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-150 
+-140 
+-130 
+-120 
+-490 
+-470 
+-460 
+-450 
+-440 
+-210 
+-200 
+-190 
+-180 
+-170 
+-110 
+-100 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 -430 
+-420 
+-410 
+-400 
+-390 
+-380 -160 
+-150 
+
+-370 
+-360 
+-350 
+
+-140 
+-130 
+-120 
+-110 
+-100 
+-340 
+-330 
+-320 
+-310 
+-300 -140 
+-130 
+-120 
+
+-290 
+-280 
+-270 
+-260 -480 
+
+-250 
+-240 
+-230 
+-110 
+-100 
+-220 
+-210 
+-200 
+-190 
+-470 
+-180 
+-170 
+-160 
+-150 
+-460 
+-140 
+-130 
+-120 
+-450 
+-110 
+-100 
+-440 
+-490 
+-480 
+-470 
+-460 
+-450 -430 
+
+-440 
+-430 
+-420 
+-410 
+-420 
+-400 
+-390 
+-380 -410 
+
+-370 
+-360 
+-400 
+-350 
+-340 
+-330 
+-390 
+-320 
+-310 
+-300 -380 
+
+-290 
+-280 
+-370 
+-270 
+-260 
+-250 -360 
+
+-240 
+-230 
+-220 
+-350 
+-210 
+-200 
+-190 
+-340 
+-180 
+-170 
+-160 
+-330 
+-150 
+-140 
+-320 
+-130 
+-120 
+-110 
+-310 
+-100 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-240 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-230 
+-220 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-210 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-200 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 -190 
+
+-320 
+-310 
+-300 
+-290 
+-280 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 -430 
+-420 
+-410 
+-400 
+-390 
+-380 
+
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 -150 
+-140 
+-130 
+-120 
+-110 
+
+-310 
+-300 
+-290 
+-280 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-270 
+-260 
+-250 
+-240 
+-230 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-220 
+-210 
+-200 
+-190 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-180 
+-170 
+-160 
+-150 
+-140 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-180 
+-170 
+-160 
+-150 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-490 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-130 
+-120 
+-110 
+-100 
+-140 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-180 
+-170 
+-160 
+-150 
+-140 
+-250 
+-240 
+-230 
+-220 
+-210 
+-410 
+-400 
+-390 
+-380 
+-130 
+-120 
+-110 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-200 
+-190 
+-180 
+-170 
+-370 
+-360 
+-350 
+-340 
+-330 
+-130 
+-430 
+-420 
+-410 
+-400 
+-390 -100 
+-320 
+-310 
+-300 
+-290 
+-280 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+
+-380 
+-370 
+-360 
+-350 
+-100 
+-270 
+-260 
+-250 
+-240 
+-120 
+-340 
+-330 
+-320 
+-310 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-110 
+-230 
+-220 
+-210 
+-200 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-100 
+-300 
+-290 
+-280 
+-270 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-190 
+-180 
+-170 
+-160 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-260 
+-250 
+-240 
+-230 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+
+-150 
+-140 
+-130 
+-120 
+-110 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-220 
+-210 
+-200 
+-190 
+-180 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-370 
+-360 
+-350 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-340 
+-330 
+-320 
+-310 
+-300 
+-170 
+-160 
+-150 
+-140 
+-130 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-290 
+-280 
+-270 
+-260 
+-250 
+
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 -490 
+-480 
+-470 
+-460 
+-450 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-240 
+-230 
+-220 
+-210 
+-200 
+-440 
+-430 
+-420 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+
+-410 
+-400 
+-390 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-190 
+-180 
+-170 
+-160 
+-380 
+-370 
+-360 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 -350 
+-340 
+-330 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-150 
+-140 
+-130 
+-120 -320 
+-310 
+-300 
+
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-320 
+-310 
+-300 
+-290 
+-280 
+-290 
+-280 
+-270 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-110 
+-100 
+-260 
+-250 
+-240 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-270 
+-260 
+-250 
+-230 
+-220 
+-210 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-240 
+-230 
+-220 -200 
+-190 
+-180 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-210 
+-200 
+-170 
+-160 
+-150 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-190 
+-180 
+-170 
+
+-140 
+-130 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-160 
+-150 
+-140 
+-120 
+-110 
+-100 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-130 
+-120 
+
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-490 
+-480 
+-470 
+-460 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 -450 
+-440 
+
+-380 
+-370 
+-360 
+-430 
+-420 
+-410 -350 
+-340 
+-330 
+
+-400 
+-390 
+-320 
+-310 
+-300 
+-380 
+-370 
+-290 
+-280 
+-270 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 -260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+
+-300 
+-290 
+-170 
+-160 
+-150 
+-280 
+-270 
+-140 
+-130 
+-120 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-260 
+-250 
+-110 
+-100 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-250 
+-240 
+-230 
+-220 
+-210 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-480 
+-180 
+-170 
+-160 
+-150 
+-140 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+
+-200 
+-190 
+-180 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-170 
+-160 
+-150 
+-140 
+-130 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-300 
+-290 
+-280 
+-270 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-260 
+-250 
+-240 
+-230 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-220 
+-210 
+-200 
+-190 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-180 
+-170 
+-160 
+-150 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-420 
+-410 
+-400 
+-390 
+-380 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-370 
+-360 
+-350 
+-340 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-330 
+-320 
+-310 
+-300 
+-290 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-280 
+-270 
+-260 
+-250 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-240 
+-230 
+-220 
+-210 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 -200 
+-190 
+-180 
+-170 
+-160 -490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+
+-150 
+-140 
+-130 
+-120 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-110 
+-100 
+
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-490 
+-480 
+-490 
+-480 
+-470 
+-460 
+-450 
+-420 
+-410 
+-400 
+-390 -440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-470 
+-460 
+-450 
+-380 
+-370 
+-360 
+-350 
+-340 
+-380 
+-370 
+-440 
+-430 
+-420 
+
+-330 
+-320 
+-310 
+-300 
+-360 
+-350 
+-340 
+-330 
+-410 
+-400 
+-390 
+-380 -290 
+-280 
+-270 
+-260 
+-250 
+-320 
+-310 
+-300 
+-240 
+-230 
+-220 
+-210 
+
+-370 
+-360 
+-350 
+-290 
+-280 
+-270 
+-200 
+-190 
+-180 
+-170 
+-340 
+-330 
+-320 
+-260 
+-250 
+-240 
+-160 
+-150 
+-140 
+-130 
+-120 -490 
+-480 
+-470 
+-460 
+-450 
+
+-110 
+-100 
+-310 
+-300 
+-290 
+-280 
+-270 -230 
+-220 
+-210 
+-200 
+-440 
+-430 
+-420 
+
+-260 
+-250 
+-240 
+-190 
+-180 
+-170 
+-410 
+-400 
+-390 
+-380 -230 
+-220 
+-210 
+-200 
+-160 
+-150 
+-140 
+-130 
+
+-370 
+-360 
+-350 
+-190 
+-180 
+-170 
+-160 
+-120 
+-110 
+-100 
+-340 
+-330 
+-320 
+-310 
+-150 
+-140 
+-130 
+-120 
+-300 
+-290 
+-280 
+-110 
+-100 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-470 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-490 
+-480 
+-470 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+-460 
+-450 
+-440 
+-430 
+-420 
+-410 
+-400 
+-390 
+-380 
+-370 
+-360 
+-350 
+-340 
+-330 
+-320 
+-310 
+-300 
+-290 
+-280 
+-270 
+-260 
+-250 
+-240 
+-230 
+-220 
+-210 
+-200 
+-190 
+-180 
+-170 
+-160 
+-150 
+-140 
+-130 
+-120 
+-110 
+-100 
+100 ms interval at t=100 ms was 35.03 s
+
+TIME HOST 0: 34.75 seconds (ran simulation)
+************
+load_balance = 0.907
+exchange_time = 0.06 ms
+****
+TIME SUMMARY for host 0
+set up in 1.15 seconds
+created cells in 0.52 seconds
+connected cells in 2.15 seconds
+ran simulation in 34.75 seconds
+wrote results in 4.7 seconds
+TOTAL TIME   = 44.16 seconds
+ALLOTTED TIME = 14400 seconds
+************
+This run is called: testrun_01
+************

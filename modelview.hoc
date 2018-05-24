@@ -2,8 +2,8 @@
 For more information, consult ModelDoc.pdf
 ************************************************************/
 NumData=101
-ConnData=430
-SynData=120
+ConnData=101
+SynData=101
 
 loadstart = startsw()					// record the start time of the set up
 /***********************************************************************************************
