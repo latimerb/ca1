@@ -1,6 +1,6 @@
 // Replace all USER_DEFINED_SECTIONs
 
-begintemplate PyrCell_A //BEGIN_USER_DEFINED_SECTION templatename END_USER_DEFINED_SECTION
+begintemplate pyrtypea //BEGIN_USER_DEFINED_SECTION templatename END_USER_DEFINED_SECTION
 public init, connect_sections, size_sections, append_sections
 public mechinit, insert_mechs, set_biophys, get_root
 public  pre_list, connect_pre, is_art, is_connected, gid, randi
@@ -60,14 +60,14 @@ proc connect_sections() { local i
 	// 	 connect dend[i+1](0), dend[i](1)
 	// }
 	//BEGIN_USER_DEFINED_SECTION
-	connect dend[0](0), soma[0](0)
+	connect apical[0](0), soma[0](0)
 
-    connect dend[1](0), soma[0](0)
+    connect basal[0](0), soma[0](0)
 		
-	//axon[0:8] are the AIS, axon[9] is the axon
+	//axon[0:9] are the AIS, axon[10] is the axon
 	connect axon[0](0), soma[0](1)
 		
-	for i = 0,10{ connect axon[i+1](0) , axon[i](1)}	
+	for i = 0,9{ connect axon[i+1](0) , axon[i](1)}	
 	
 	
 	//END_USER_DEFINED_SECTIONS
@@ -114,8 +114,8 @@ proc append_sections() { local i
 proc size_sections() { local i
 	//BEGIN_USER_DEFINED_SECTION
 	soma[0] {L = 25 diam = 24.75 nseg = 1}
-	dend[0] {diam = 3 L=270 nseg=8}     		// 3.5
-	dend[1] {diam =5 L=555 nseg=7}
+	apical[0] {diam = 3 L=270 nseg=8}     		// 3.5
+	basal[0] {diam =5 L=555 nseg=7}
 	for i=0,9 axon[i] { L = 5 nseg = 10 diam = 1.22}
 	axon[0]	{diam(0:1) = 1.7:1.5}											
 	axon[1]	{diam(0:1) = 1.5:1.22}
@@ -201,13 +201,29 @@ proc insert_mechs() {
 		ena = 45
 		ek = -80
 	}
-	for i=0,1 dend[i] {
+	apical[0] {
 		insert cadyn gcabar_cadyn = gca eca = 120
 		insert leak el_leak = -72  glbar_leak = gleak_dend Ra=RaDend cm = Cm // 2.5
 		insert hd ghdbar_hd = ghd ehd_hd=-45
 		insert na3 sh_na3=nash ar_na3=1	gbar_na3 = gna
 		insert nap gbar_nap = 0  gbar_nap(1/(2*nseg)) = 0.8*gnap
-		nsert kdr gbar_kdr = gkdr
+		insert kdr gbar_kdr = gkdr
+		insert capool taucas = 1000  fcas_capool = 0.05 
+		insert sAHP gsAHPbar_sAHP = 0
+		insert im gbar_im = 0 gbar_im(1/(2*nseg)) = 0.8*gm
+		insert kap gkabar_kap = 0
+				
+		v=Vrest
+		ena = 45
+		k = -80
+	}
+	basal[0] {
+		insert cadyn gcabar_cadyn = gca eca = 120
+		insert leak el_leak = -72  glbar_leak = gleak_dend Ra=RaDend cm = Cm // 2.5
+		insert hd ghdbar_hd = ghd ehd_hd=-45
+		insert na3 sh_na3=nash ar_na3=1	gbar_na3 = gna
+		insert nap gbar_nap = 0  gbar_nap(1/(2*nseg)) = 0.8*gnap
+		insert kdr gbar_kdr = gkdr
 		insert capool taucas = 1000  fcas_capool = 0.05 
 		insert sAHP gsAHPbar_sAHP = 0
 		insert im gbar_im = 0 gbar_im(1/(2*nseg)) = 0.8*gm
@@ -398,4 +414,4 @@ proc define_synapses() {
 		findme = 1
 	}
 }
-endtemplate PyrCell_A //BEGIN_USER_DEFINED_SECTION templatename END_USER_DEFINED_SECTION
+endtemplate pyrtypea //BEGIN_USER_DEFINED_SECTION templatename END_USER_DEFINED_SECTION
