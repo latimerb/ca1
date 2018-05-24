@@ -33231,3 +33231,68 @@ host 124 online before
 -100 
 100 ms interval at t=100 ms was 6.36 s
 100 ms interval at t=200 ms was 6.01 s
+100 ms interval at t=300 ms was 6.05 s
+100 ms interval at t=400 ms was 6.03 s
+100 ms interval at t=500 ms was 6.01 s
+100 ms interval at t=600 ms was 6.04 s
+100 ms interval at t=700 ms was 6.05 s
+100 ms interval at t=800 ms was 6.09 s
+100 ms interval at t=900 ms was 6 s
+100 ms interval at t=1000 ms was 6.07 s
+100 ms interval at t=1100 ms was 6.02 s
+100 ms interval at t=1200 ms was 6.03 s
+100 ms interval at t=1300 ms was 6.03 s
+100 ms interval at t=1400 ms was 6.04 s
+100 ms interval at t=1500 ms was 6.05 s
+100 ms interval at t=1600 ms was 6.05 s
+100 ms interval at t=1700 ms was 6.06 s
+100 ms interval at t=1800 ms was 6.1 s
+100 ms interval at t=1900 ms was 6.08 s
+100 ms interval at t=2000 ms was 6.05 s
+100 ms interval at t=2100 ms was 6.08 s
+100 ms interval at t=2200 ms was 6.09 s
+100 ms interval at t=2300 ms was 6.04 s
+100 ms interval at t=2400 ms was 6.04 s
+100 ms interval at t=2500 ms was 6.01 s
+100 ms interval at t=2600 ms was 6.01 s
+100 ms interval at t=2700 ms was 6.09 s
+100 ms interval at t=2800 ms was 6.02 s
+100 ms interval at t=2900 ms was 6 s
+100 ms interval at t=3000 ms was 6.02 s
+100 ms interval at t=3100 ms was 5.98 s
+100 ms interval at t=3200 ms was 5.99 s
+100 ms interval at t=3300 ms was 5.99 s
+100 ms interval at t=3400 ms was 6.06 s
+100 ms interval at t=3500 ms was 6.01 s
+100 ms interval at t=3600 ms was 5.99 s
+100 ms interval at t=3700 ms was 5.9 s
+100 ms interval at t=3800 ms was 5.5 s
+100 ms interval at t=3900 ms was 5.04 s
+100 ms interval at t=4000 ms was 5.02 s
+100 ms interval at t=4100 ms was 5.01 s
+100 ms interval at t=4200 ms was 5.03 s
+100 ms interval at t=4300 ms was 5 s
+100 ms interval at t=4400 ms was 5 s
+100 ms interval at t=4500 ms was 5.03 s
+100 ms interval at t=4600 ms was 5.06 s
+100 ms interval at t=4700 ms was 5.91 s
+100 ms interval at t=4800 ms was 5.93 s
+100 ms interval at t=4900 ms was 5.89 s
+100 ms interval at t=5000 ms was 5.94 s
+
+TIME HOST 0: 292.87 seconds (ran simulation)
+************
+load_balance = 0.891
+exchange_time = 3.34 ms
+****
+TIME SUMMARY for host 0
+set up in 1.54 seconds
+created cells in 0.29 seconds
+connected cells in 2.57 seconds
+ran simulation in 292.87 seconds
+wrote results in 126.37 seconds
+TOTAL TIME   = 424.3 seconds
+ALLOTTED TIME = 14400 seconds
+************
+This run is called: testrun_09
+************

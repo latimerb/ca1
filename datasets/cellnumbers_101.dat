@@ -1,4 +1,5 @@
 3
-pyramidalcell poolosyncell 100 1 0
-pvbasketcell pvbasketcell 10 1 0
+pyramidalcell pyrtypea 45000 0 0
+axoaxoniccell axoaxoniccell 1000 0 0
+pvbasketcell pvbasketcell 5530 0 0
 ca3cell ppspont 100 2 1
