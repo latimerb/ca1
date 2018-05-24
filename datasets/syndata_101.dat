@@ -1,8 +1,10 @@
-6
-pvbasketcell ca3cell MyExp2Sid dendrite_list distance(x)>-1 distance(x)<1000  0.500000 3.000000 0.000000      
-pyramidalcell ca3cell MyExp2Sid dendrite_list distance(x)>-1 distance(x)<1000  0.500000 3.000000 0.000000
-pyramidalcell pyramidalcell MyExp2Sid apical_list distance(x)>100 distance(x)<1000  0.100000 1.500000 0.000000      
-pyramidalcell pvbasketcell MyExp2Sid soma_list distance(x)>-1 distance(x)<1000  0.300000 6.200000 0.000000      
-pvbasketcell pyramidalcell MyExp2Sid apical_list distance(x)>100 distance(x)<1000  0.070000 0.200000 0.000000      
-pvbasketcell pvbasketcell MyExp2Sid soma_list distance(x)>-1 distance(x)<1000  0.080000 4.800000 0.000000           
-
+9
+axoaxoniccell pyramidalcell MyExp2Sid axon_list distance(x)>-1 distance(x)<100 2.0 6.3 0.0   
+pvbasketcell pyramidalcell MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+pyramidalcell poissonbg MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+pyramidalcell pvbasketcell MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 -80.0   
+pyramidalcell axoaxoniccell MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+pvbasketcell axoaxoniccell MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+axoaxoniccell pvbasketcell MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 -80.0   
+pvbasketcell poissonbg MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   
+axoaxoniccell poissonbg MyExp2Sid soma_list distance(x)>-1 distance(x)<10000 2.0 6.3 0.0   

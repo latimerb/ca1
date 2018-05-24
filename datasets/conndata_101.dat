@@ -1,8 +1,13 @@
-6
-ca3cell pvbasketcell 0.000220 20000.000000 1.000000
-ca3cell pyramidalcell 0.000200 10000.000000 1.000000
-pvbasketcell pvbasketcell 0.001600 39.000000 1.000000
-pvbasketcell pyramidalcell 0.000200 17.000000 1.000000
-pyramidalcell pvbasketcell 0.000700 424.000000 1.000000
-pyramidalcell pyramidalcell 0.070000 197.000000 1.000000
-
+12
+pyramidalcell pyramidalcell 0.000000 0.000000 0.000000
+pyramidalcell axoaxoniccell 0.001000 0.000000 0.000000
+pyramidalcell pvbasketcell 0.001000 0.000000 0.000000
+axoaxoniccell pyramidalcell 0.001000 0.000000 0.000000
+axoaxoniccell axoaxoniccell 0.000000 0.000000 0.000000
+axoaxoniccell pvbasketcell 0.001000 0.000000 0.000000
+pvbasketcell pyramidalcell 0.001000 0.000000 0.000000
+pvbasketcell axoaxoniccell 0.001000 0.000000 0.000000
+pvbasketcell pvbasketcell 0.000000 0.000000 0.000000
+poissonbg pyramidalcell 0.001000 0.000000 0.000000
+poissonbg axoaxoniccell 0.001000 0.000000 0.000000
+poissonbg pvbasketcell 0.001000 0.000000 0.000000
