@@ -1,13 +1,13 @@
 12
 pyramidalcell pyramidalcell 0.000000 0.000000 0.000000
-pyramidalcell axoaxoniccell 0.001000 100.000000 1.000000
+pyramidalcell axoaxoniccell 0.001000 10.000000 1.000000
 pyramidalcell pvbasketcell 0.001000 0.000000 0.000000
-axoaxoniccell pyramidalcell 0.001000 1000.000000 1.000000
+axoaxoniccell pyramidalcell 0.001000 10.000000 1.000000
 axoaxoniccell axoaxoniccell 0.000000 0.000000 0.000000
 axoaxoniccell pvbasketcell 0.001000 0.000000 0.000000
 pvbasketcell pyramidalcell 0.001000 0.000000 0.000000
 pvbasketcell axoaxoniccell 0.001000 0.000000 0.000000
 pvbasketcell pvbasketcell 0.000000 0.000000 0.000000
 poissonbg pyramidalcell 0.001000 0.000000 0.000000
-poissonbg axoaxoniccell 0.001000 1000.000000 1.000000
+poissonbg axoaxoniccell 0.001000 10.000000 1.000000
 poissonbg pvbasketcell 0.001000 0.000000 0.000000
