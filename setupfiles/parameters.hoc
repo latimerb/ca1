@@ -3,7 +3,7 @@ default_var("UID","0")		// Unique ID for this simulation run
 default_var("Stimulation","spontaneous")		// Filename of the stimulation protocol used to stimulate the network
 default_var("Connectivity","try_all_randfaststim")		// Filename of the connection protocol used to connect the cells of the network
 default_var("Scale",1)		// Network scale (1:Scale)
-default_var("SimDuration",5000)		// Duration of time simulated, in milliseconds
+default_var("SimDuration",2000)		// Duration of time simulated, in milliseconds
 default_var("RandomSeeds",0)		// Method used to assign seeds to random processors
 default_var("Positioning","")		// Algorithm used to position the cells
 default_var("PrintVoltage",1)		// Flag for recording and printing intracellular voltage traces for select cells
@@ -18,7 +18,7 @@ default_var("SpatialResolution",100)		// Spatial discretization method or resolu
 default_var("ConnData",101)		// Number of the connection dataset to use
 default_var("SynData",101)		// Number of the synapse kinetics dataset that was used to prepare the cell definition files
 default_var("NumData",101)		// Number of the cells dataset to use
-default_var("TemporalResolution",0.01)		// Temporal resolution of the simulation (in ms)
+default_var("TemporalResolution",0.05)		// Temporal resolution of the simulation (in ms)
 default_var("NumTraces",100)		// The maximum number of cells to record intracellularly, for each cell type
 default_var("FracTraces",50)		// The percent of cells to record intracellularly, for each cell type
 default_var("JobNumber",0)		// Job number assigned by supercomputer

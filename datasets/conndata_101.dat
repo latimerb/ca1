@@ -9,5 +9,5 @@ pvbasketcell pyramidalcell 0.001000 0.000000 0.000000
 pvbasketcell axoaxoniccell 0.001000 0.000000 0.000000
 pvbasketcell pvbasketcell 0.000000 0.000000 0.000000
 poissonbg pyramidalcell 0.001000 0.000000 0.000000
-poissonbg axoaxoniccell 0.001000 10.000000 1.000000
+poissonbg axoaxoniccell 0.008000 10.000000 1.000000
 poissonbg pvbasketcell 0.001000 0.000000 0.000000

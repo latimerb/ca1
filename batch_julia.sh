@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH --nodes=5
-#SBATCH --ntasks-per-node=40
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=10
 #SBATCH --qos=normal
 #SBATCH --job-name=ca1
 #SBATCH --output=ca1%j.out
