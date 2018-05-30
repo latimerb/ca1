@@ -2,7 +2,7 @@
 pyramidalcell pyramidalcell 0.000000 0.000000 0.000000
 pyramidalcell axoaxoniccell 0.008000 1.000000 1.000000
 pyramidalcell pvbasketcell 0.001000 0.000000 0.000000
-axoaxoniccell pyramidalcell 0.000500 0.000000 1.000000
+axoaxoniccell pyramidalcell 0.000500 1.000000 1.000000
 axoaxoniccell axoaxoniccell 0.000000 0.000000 0.000000
 axoaxoniccell pvbasketcell 0.001000 0.000000 0.000000
 pvbasketcell pyramidalcell 0.001000 0.000000 0.000000
