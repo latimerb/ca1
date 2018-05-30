@@ -449,8 +449,8 @@ connecttime = startsw() - connectstart			// Calculate time taken to connect the 
 if (pc.id == 0) {printf("\nTIME HOST 0: %g seconds (connected cells)\n************\n", connecttime)}
 simstart = startsw()
 
-{pc.barrier()}
-printf("\nhost %d online before \n", pc.id)
+
+
 
 /***********************************************************************************************
 VI.	INITIALIZE AND RUN NETWORK, OUTPUT RESULT FILES

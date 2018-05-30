@@ -109,7 +109,7 @@ proc syn_cells() {localobj mySynStore
 		}
 		
 		
-		//print pre_type, " to ", post_type, " as ", SynType, " within ", SecRefStr, " between ", CheckCond1, " and ", CheckCond2, ": ", tau1, " to ", tau2, " with e=", efirst
+		print pre_type, " to ", post_type, " as ", SynType, " within ", SecRefStr, " between ", CheckCond1, " and ", CheckCond2, ": ", tau1, " to ", tau2, " with e=", efirst
 		sprint(cmdstr, "%s_idx", pre_type)
 		sprint(cmdstr1, "%s_idx", post_type)
 		

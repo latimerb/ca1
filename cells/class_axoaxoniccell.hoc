@@ -202,8 +202,8 @@ proc mechinit() {
 	RmSoma = 5555 //1/0.00018
 
 	// Membrane capacitance in uF/cm2
-	CmSoma= 1.4
-	CmDend = 1.4
+	CmSoma= 1
+	CmDend = 1
 
 	// Axial resistance in ohm*cm
 	RaDend= 100
@@ -346,6 +346,7 @@ proc define_synapses() {
 				for (x,0) {
 					execute(cellType[ind].SynList[celltype].object(r).CondStr, this)
 					 if (y==1) {
+					
 						execute(cellType[ind].SynList[celltype].object(r).SynStr, this)
 						if (cellType[ind].SynList[celltype].object(r).GABAabFlag==0) {
 							syn.tau1 = cellType[ind].SynList[celltype].object(r).tau1
