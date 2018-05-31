@@ -1,9 +1,9 @@
 default_var("RunName","testrun")		// Name of simulation run
-default_var("UID","0")		// Unique ID for this simulation run
+default_var("UID","123456")		// Unique ID for this simulation run
 default_var("Stimulation","spontaneous")		// Filename of the stimulation protocol used to stimulate the network
 default_var("Connectivity","try_all_randfaststim")		// Filename of the connection protocol used to connect the cells of the network
-default_var("Scale",1)		// Network scale (1:Scale)
-default_var("SimDuration",1000)		// Duration of time simulated, in milliseconds
+default_var("Scale",100)		// Network scale (1:Scale)
+default_var("SimDuration",500)		// Duration of time simulated, in milliseconds
 default_var("RandomSeeds",0)		// Method used to assign seeds to random processors
 default_var("Positioning","")		// Algorithm used to position the cells
 default_var("PrintVoltage",1)		// Flag for recording and printing intracellular voltage traces for select cells
@@ -13,7 +13,7 @@ default_var("PrintCellPositions",1)		// Flag for printing the cell positions
 default_var("PrintConnSummary",1)		// Flag for printing the summary connection matrix
 default_var("TransverseLength",1400)		// Length of the network subfield in the transverse direction in microns
 default_var("LongitudinalLength",1400)		// Length of the network subfield in the longitudinal direction in microns
-default_var("LayerHeights","2;700;700;")		// Vector of heights of each network subfield layer in microns (from basal to molecular layer)
+default_var("LayerHeights","1;1400;")		// Vector of heights of each network subfield layer in microns (from basal to molecular layer)
 default_var("SpatialResolution",100)		// Spatial discretization method or resolution
 default_var("ConnData",101)		// Number of the connection dataset to use
 default_var("SynData",101)		// Number of the synapse kinetics dataset that was used to prepare the cell definition files

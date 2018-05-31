@@ -3,7 +3,7 @@
 #SBATCH -p Lewis,RC
 #SBATCH -N 1
 #SBATCH -A rc
-#SBATCH -n 10
+#SBATCH -n 2
 #SBATCH --qos=normal
 #SBATCH --job-name=ca1
 #SBATCH --output=ca1%j.out

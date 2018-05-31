@@ -378,6 +378,47 @@ zzz = mallinfo(zzz, "After creating cells")
 V.	CONNECT THE MODEL CELLS AND CONNECT THE STIMULATION CELLS TO SOME MODEL CELLS
 ***********************************************************************************************/
 
+
+/////////////// NEED TO MAKE A PROCEDURE FOR THIS ////////////////////
+objref axonCurrent, vclamp
+ChnIndex = 243 //243 for 1:100 24 for 1:1000
+access cells.o(ChnIndex+1).soma
+axonCurrent=new IClamp(0.1)
+axonCurrent.dur = 22
+axonCurrent.del = 100
+axonCurrent.amp = 0.5
+
+access cells.o(ChnIndex).soma
+vclamp = new SEClamp(0.5)
+vclamp.rs = .1 // Mohm:series resistance should be much smaller than input resistance of the cell
+vclamp.dur1 = 0
+vclamp.amp1 = -70
+vclamp.dur2 = tstop
+vclamp.amp2 = -70
+vclamp.dur3 = 0
+vclamp.amp3 = -70
+
+// If we want the vclamp to wait until after the current is injected to turn on
+//START_VCLAMP = 10
+//proc delaysec() {
+//  vclamp.rs = 1e9
+//  cvode.event($1, "vclamp.rs = 0.1")
+//}
+//objref fih
+//fih = new FInitializeHandler("delaysec(START_VCLAMP)")
+
+//Record the current
+objref CurrentRec
+if (pc.gid_exists(ChnIndex)){
+	CurrentRec = new Vector()
+	CurrentRec.record(&vclamp.i)
+}
+
+
+			
+///////////////////////////////////////////////////////////////////////////////
+
+
 {load_file("./setupfiles/nc_append_functions.hoc")}	// Defines nc_append and nc_appendo, which 
 													//  are procs used to create the netcon
 													//  object associated with each synapse
@@ -516,6 +557,8 @@ if (pc.id==0) {			// Close the files used to record the memory usage as no more 
 if (pc.id==0 && get_spike_hist==1) {	// If a spike histogram was generated, print it out.
 	printSpikeHistogram()
 }
+
+Save_Curr()
 
 // New quit commands, for use with NEURON development version 91f44d14afd5 or higher.
 //  Use these commands with this NEURON version 91f44d14afd5 or higher if the original

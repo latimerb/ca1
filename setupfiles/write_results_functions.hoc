@@ -118,6 +118,19 @@ proc SpikeOutParallel() {local i  localobj f
 	}
 }
 
+strdef current
+objref f_current
+
+proc Save_Curr() { local z
+	if(pc.gid_exists(ChnIndex)){
+		f_current = new File()
+		sprint(current,"./results/%s/ChnCurrent.dat", RunName) 
+		f_current.wopen(current)
+		CurrentRec.printf(f_current)
+		f_current.close()
+	}
+}
+
 // Print a summary of some of the job properties, data that
 //  are displayed in the SimTracker for executed jobs, if
 //  using the SimTracker. Data written include: total
